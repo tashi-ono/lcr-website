@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import About from "./components/About/About";
+import Careers from "./components/Careers/Careers";
+import Contact from "./components/Contact/Contact";
+import Covid from "./components/Covid/Covid";
+import Header from "./components/Header/Header";
+import Homepage from "./components/Homepage/Homepage";
+import Nav from "./components/Nav/Nav";
+import Recycling from "./components/Recycling/Recycling";
+import Services from "./components/Services/Services";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Nav />
+        <Switch>
+          <Route exact path="/" component={Homepage} />
+          <Route exact path="/services" component={Services} />
+          <Route exact path="/covid" component={Covid} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/recycling" component={Recycling} />
+          <Route exact path="/careers" component={Careers} />
+          <Route exact path="/contact" component={Contact} />
+        </Switch>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

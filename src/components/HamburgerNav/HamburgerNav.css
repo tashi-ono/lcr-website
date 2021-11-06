@@ -1,0 +1,7 @@
+.hamburger-lines {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+}

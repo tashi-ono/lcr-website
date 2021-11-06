@@ -1,0 +1,40 @@
+#homepage-container {
+  width: 100%;
+  position: relative;
+}
+
+#homepage-pic {
+  background-image: url("https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1635617249/Luke%27s%20Website/Bank_of_Marin_he0sgm.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#homepage-container h3 {
+  color: white;
+  text-shadow: 5px 4px 3px gray;
+}
+
+@media only screen and (min-width: 768px) {
+  #homepage-container {
+    /* width: 100%; */
+    /* top: 150px; */
+  }
+
+  #homepage-pic {
+    /* background-position: 0px -50px; */
+    /* height: 100%; */
+  }
+
+  #homepage-container h3 {
+    /* font-size: 4rem;
+    margin: 0;
+    padding-left: 125px;
+    padding-top: 75px; */
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 1600px) {
+}
