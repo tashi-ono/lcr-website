@@ -2,32 +2,32 @@
   font-family: "Crimson Text", serif;
   padding: 35px;
   text-align: center;
-  text-transform: uppercase;
 }
 
 #header-title h1 {
+  display: block;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+#desktop-logo {
   display: none;
-}
-
-#company-logo span {
-  background-color: black;
-  color: white;
-  font-family: "Coda Caption", sans-serif;
-  font-size: 2.5rem;
-  padding: 1px 5px 1px 10px;
-  margin: 2px;
-}
-
-span#l-logo {
-  padding: 1px 10px 1px 15px;
 }
 
 @media only screen and (min-width: 768px) {
   #header-title h1 {
     display: inline;
-    font-size: 1.5rem;
     font-weight: 300;
     padding: 0 35px;
+  }
+
+  #desktop-logo {
+    display: inline;
+  }
+
+  #mobile-logo {
+    display: none;
   }
 }
 

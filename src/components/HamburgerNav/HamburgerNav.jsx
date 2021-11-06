@@ -1,12 +1,13 @@
 import React from "react";
+import "./HamburgerNav.css";
 
 const HamburgerNav = () => {
   return (
-    <div id="hamburger-nav">
+    <button id="hamburger-nav">
       <div className="hamburger-lines"></div>
       <div className="hamburger-lines"></div>
       <div className="hamburger-lines"></div>
-    </div>
+    </button>
   );
 };
 

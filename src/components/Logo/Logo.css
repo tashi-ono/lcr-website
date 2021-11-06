@@ -1,0 +1,12 @@
+#company-logo span {
+  background-color: black;
+  color: white;
+  font-family: "Coda Caption", sans-serif;
+  font-size: 2.5rem;
+  padding: 1px 5px 1px 10px;
+  margin: 2px;
+}
+
+span#l-logo {
+  padding: 1px 10px 1px 15px;
+}
