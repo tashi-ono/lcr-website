@@ -20,12 +20,17 @@ nav a {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   nav a {
     display: none;
   }
 }
 
+@media only screen and (min-width: 1020px) {
+  nav a {
+    margin: 0 10px 0;
+  }
+}
 @media only screen and (min-width: 1024px) {
 }
 

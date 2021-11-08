@@ -7,60 +7,148 @@
 #homepage-pic {
   background-color: #67778a;
   background-image: url("https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1635617249/Luke%27s%20Website/Bank_of_Marin_he0sgm.png");
-  background-position: -600px 0;
   background-repeat: no-repeat;
-  background-size: 300%;
   height: 100%;
 }
 
-#homepage-container h3 {
+#homepage-pic > h3 {
   color: white;
+  font-family: "Roboto", sans-serif;
   font-size: 3rem;
-  text-shadow: 2px 3px 3px rgb(59, 51, 51);
+  text-shadow: 5px 3px 10px rgb(59, 51, 51);
   padding: 50px 0 0 40px;
 }
 
 #strategy {
-  /* left: -100px;
-  position: relative;
-  max-width: 100px;
-  top: 30px; */
+  animation: fadeIn ease-in 2s;
+  -webkit-animation: fadeIn ease-in 2s;
+  -moz-animation: fadeIn ease-in 2s;
+  -o-animation: fadeIn ease-in 2s;
+  -ms-animation: fadeIn ease-in 2s;
 }
 
 #execution {
-  /* position: relative;
-  max-width: 100px;
-  top: 50px; */
+  animation: fadeIn ease-in 4s;
+  -webkit-animation: fadeIn ease-in 4s;
+  -moz-animation: fadeIn ease-in 4s;
+  -o-animation: fadeIn ease-in 4s;
+  -ms-animation: fadeIn ease-in 4s;
 }
 
 #compliance {
-  /* left: 90px;
-  position: relative;
-  max-width: 100px;
-  top: 70px; */
+  animation: fadeIn ease-in 6s;
+  -webkit-animation: fadeIn ease-in 6s;
+  -moz-animation: fadeIn ease-in 6s;
+  -o-animation: fadeIn ease-in 6s;
+  -ms-animation: fadeIn ease-in 6s;
 }
 
-@media only screen and (min-width: 768px) {
-  #homepage-container {
-    /* width: 100%; */
-    /* top: 150px; */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
+  100% {
+    opacity: 1;
+  }
+}
 
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 350px) {
   #homepage-pic {
-    /* background-position: 0px -50px; */
-    /* height: 100%; */
-  }
-
-  #homepage-container h3 {
-    /* font-size: 4rem;
-    margin: 0;
-    padding-left: 125px;
-    padding-top: 75px; */
+    background-position: -600px 0;
+    background-size: 300%;
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 580px) {
+  #homepage-container {
+    height: 100%;
+  }
+  #homepage-pic {
+    background-position: -900px 0;
+  }
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 767px) {
+  #homepage-pic {
+    background-position-x: 90%;
+  }
+}
+
+@media only screen and (min-width: 790px) {
+  #homepage-pic {
+    background-position: 90% 0;
+    /* background-size: 300%; */
+  }
+}
+@media only screen and (min-width: 1020px) {
+  #homepage-pic {
+    background-position: -250px -80px;
+    background-size: 120%;
+  }
+
+  #homepage-pic > h3 {
+    font-size: 3.5rem;
+    padding: 50px 0 20px 80px;
+  }
+}
+
+@media only screen and (min-width: 1275px) {
+  #homepage-pic {
+    background-position: -100px -80px;
+    background-size: 110%;
+  }
+
+  #homepage-pic > h3 {
+    padding: 70px 0 10px 80px;
+  }
+}
+
+@media only screen and (min-width: 1580px) {
+}
+
+@media only screen and (min-width: 1900px) {
+  #homepage-pic {
+    background-position: -120px 0;
+    background-size: 110%;
+  }
+
+  #homepage-pic > h3 {
+    padding: 90px 0 20px 100px;
+  }
 }
