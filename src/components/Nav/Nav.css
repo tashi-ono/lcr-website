@@ -1,38 +1,35 @@
 nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 nav a {
   font-family: "Flamenco", cursive;
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 1.6rem;
+  /* font-weight: bold; */
 }
 
 @media only screen and (min-width: 768px) {
   nav {
-    display: flex;
-    flex-direction: row;
-    gap: 3%;
     justify-content: center;
-    margin-bottom: 10px;
+  }
+
+  nav a {
+    padding: 0 10px 10px;
+    margin: 0;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  nav a {
+  /* nav a {
     display: none;
-  }
+  } */
 }
 
 @media only screen and (min-width: 1020px) {
-  nav a {
-    margin: 0 10px 0;
-  }
-}
-@media only screen and (min-width: 1024px) {
 }
 
 @media only screen and (min-width: 1600px) {
+  nav a {
+    padding: 0 30px 10px;
+  }
 }

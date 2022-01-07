@@ -4,7 +4,7 @@ import About from "./components/About/About";
 import Careers from "./components/Careers/Careers";
 import Contact from "./components/Contact/Contact";
 import Covid from "./components/Covid/Covid";
-import Header from "./components/Header/Header";
+import Logo from "./components/Logo/Logo";
 import Homepage from "./components/Homepage/Homepage";
 import Nav from "./components/Nav/Nav";
 import Recycling from "./components/Recycling/Recycling";
@@ -15,7 +15,7 @@ const App = () => {
   return (
     <Router>
       <div className="App">
-        <Header />
+        <Logo />
         <Nav />
         <Switch>
           <Route exact path="/" component={Homepage} />

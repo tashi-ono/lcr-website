@@ -1,0 +1,39 @@
+#services-page {
+  background-color: #e7e7e7;
+  height: calc(100% - 242px);
+  position: relative;
+}
+
+#services-header {
+  background-color: #448bca;
+}
+
+#services-header span {
+  display: table;
+  font-family: "Flamenco", cursive;
+  font-size: 1.7rem;
+  background-color: white;
+  color: #448bca;
+  padding: 15px 40px;
+  margin: 0 auto;
+}
+#services-border {
+  padding: 10px;
+  position: relative;
+  top: 30px;
+  background-color: #448bca;
+  width: calc(100% - 750px);
+  padding: 10px;
+  left: 10vw;
+}
+#services-border p {
+  background-color: #448bca;
+  color: white;
+
+  width: 60vw;
+
+  padding: 15px;
+  font-size: 1.8rem;
+  border-style: solid;
+  border-width: thin;
+}

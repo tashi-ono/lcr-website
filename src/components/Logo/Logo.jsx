@@ -1,14 +1,20 @@
 import React from "react";
+import HamburgerNav from "../HamburgerNav/HamburgerNav";
 import { NavLink } from "react-router-dom";
+
 import "./Logo.css";
 
 const Logo = () => {
   return (
-    <NavLink id="company-logo" to="/">
-      <span id="l-logo">L</span>
-      <span>C</span>
-      <span>R</span>
-    </NavLink>
+    <div id="logo">
+      <NavLink to="/">
+        <img
+          src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1641523628/Luke%27s%20Website/Logo_poogxo.jpg"
+          alt="LCR Commercial Construction Logo"
+          width="300px"
+        />
+      </NavLink>
+    </div>
   );
 };
 
