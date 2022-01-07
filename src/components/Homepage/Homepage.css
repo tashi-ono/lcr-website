@@ -13,9 +13,7 @@
 
 #homepage-pic > h3 {
   color: white;
-  font-family: "Roboto Condensed", sans-serif;
   font-size: 3rem;
-  /* padding: 50px 0 0 40px; */
   text-shadow: 2px 3px 10px rgb(59, 51, 51);
 }
 
