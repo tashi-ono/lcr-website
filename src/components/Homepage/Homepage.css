@@ -121,7 +121,7 @@
   }
 
   #homepage-pic > h3 {
-    font-size: 5rem;
+    font-size: 6rem;
     /* padding: 50px 0 20px 80px; */
   }
 }
@@ -142,7 +142,7 @@
 
 @media only screen and (min-width: 1900px) {
   #homepage-container {
-    height: calc(100% - 242px);
+    height: calc(100% - 22.5%);
   }
 
   #homepage-pic {

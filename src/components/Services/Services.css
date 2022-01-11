@@ -1,6 +1,6 @@
 #services-page {
   background-color: #e7e7e7;
-  height: calc(100% - 242px);
+  height: calc(100% - 245px);
   position: relative;
 }
 
@@ -9,30 +9,118 @@
 }
 
 #services-header span {
-  display: table;
-  font-family: "Flamenco", cursive;
-  font-size: 1.7rem;
   background-color: white;
   color: #448bca;
-  padding: 15px 40px;
+  display: table;
+  font-family: "Flamenco", cursive;
+  font-size: 2rem;
   margin: 0 auto;
+  padding: 1% 3%;
 }
+
 #services-border {
-  padding: 10px;
-  position: relative;
-  top: 30px;
   background-color: #448bca;
-  width: calc(100% - 750px);
-  padding: 10px;
-  left: 10vw;
+  left: 16vw;
+  padding: 20px 0;
+  position: relative;
+  top: 50px;
+  width: calc(100% - 32vw);
 }
+
 #services-border p {
   background-color: #448bca;
-  color: white;
-  width: 59vw;
-
-  padding: 15px;
-  font-size: 1.8rem;
   border-style: solid;
   border-width: thin;
+  color: white;
+  font-size: 2.4rem;
+  padding: 20px 30px;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.services-pics {
+  position: absolute;
+}
+
+.services-pics p {
+  font-size: 1.9rem;
+  position: absolute;
+  text-align: center;
+}
+
+#steel-frame {
+  left: 19.5vw;
+  top: 14vh;
+}
+
+#steel-frame p {
+  color: white;
+  left: 2vw;
+  top: 5vh;
+}
+
+#health-care {
+  left: 7.7vw;
+  top: 26vh;
+}
+
+#health-care p {
+  color: white;
+  left: 1vw;
+  top: 7.5vh;
+}
+
+#drywall {
+  left: 30vw;
+  top: 32vh;
+}
+
+#drywall p {
+  color: white;
+  left: 2.5vw;
+  top: 4.5vh;
+}
+
+#insulation {
+  bottom: 17vh;
+  left: 18.2vw;
+}
+
+#insulation p {
+  bottom: 6vh;
+  color: white;
+  left: 1.7vw;
+}
+
+#demolition {
+  bottom: 17vh;
+  left: 41.8vw;
+}
+
+#demolition p {
+  bottom: 6vh;
+  color: white;
+  left: 1.7vw;
+}
+
+#exteriors {
+  bottom: 3vh;
+  left: 30vw;
+}
+
+#exteriors p {
+  bottom: 6vh;
+  color: white;
+  left: 2.3vw;
+}
+
+#tenant {
+  bottom: 1.4vh;
+  left: 53.6vw;
+}
+
+#tenant p {
+  bottom: 4vh;
+  color: white;
+  left: 2.5vw;
 }
