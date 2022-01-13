@@ -1,9 +1,11 @@
 import React from "react";
+import Header from "../Header/Header";
+import "./Careers.css";
 
 const Careers = () => {
   return (
-    <div>
-      <h2>CAREERS</h2>
+    <div id="careers-page">
+      <Header title="CAREERS" color="#542000" />
       <h3>Join our team of qualified professionals and subcontractors</h3>
       <ul>
         <li>Carpenters</li>

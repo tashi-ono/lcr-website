@@ -1,9 +1,11 @@
 import React from "react";
+import Header from "../Header/Header";
+import "./About.css";
 
 const About = () => {
   return (
-    <div>
-      <h2>ABOUT US</h2>
+    <div id="about-page">
+      <Header title="ABOUT US" color="#3D4D43" />
       <h3>A LOCAL COMPANY</h3>
       <h3>A MORE RESPONSIVE COMPANY</h3>
       <p>

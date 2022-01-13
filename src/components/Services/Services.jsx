@@ -1,13 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Header from "../Header/Header";
 import "./Services.css";
 
 const Services = () => {
   return (
     <div id="services-page">
-      <div id="services-header">
-        <span>SERVICES</span>
-      </div>
+      <Header title="SERVICES" color="#448BCA" />
       <div id="services-border">
         <p>
           WORK WITH OUR EFFICIENT TEAM AND PARTNERING SUBCONTRACTORS <br /> FOR
@@ -41,7 +40,7 @@ const Services = () => {
         <NavLink to="/contact">
           <img
             src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1641877412/Luke%27s%20Website/Services_Drywall_bhasuh.png"
-            alt="Drywall"
+            alt="Dry Wall"
             width="225px"
           />
           <p>DRY WALL</p>
@@ -77,7 +76,7 @@ const Services = () => {
           <p>EXTERIORS</p>
         </NavLink>
       </div>
-      <div className="services-pics" id="tenant">
+      <div className="services-pics" id="improvement">
         <NavLink to="/contact">
           <img
             src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1641877419/Luke%27s%20Website/Services_Tenant_Improvement_bffvgo.png"
@@ -87,6 +86,34 @@ const Services = () => {
           <p>
             TENANT <br />
             IMPROVEMENT
+          </p>
+        </NavLink>
+      </div>
+      <div className="services-pics" id="shells">
+        <NavLink to="/contact">
+          <img
+            src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1641877416/Luke%27s%20Website/Services_Cold_Warm_Shell_arp7pd.png"
+            alt="Cold Shell, Warm Shell"
+            width="275px"
+          />
+          <p>
+            COLD SHELL
+            <br />
+            <br />
+            WARM SHELL
+          </p>
+        </NavLink>
+      </div>
+      <div className="services-pics" id="relocation">
+        <NavLink to="/contact">
+          <img
+            src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1641877415/Luke%27s%20Website/Services_Tenant_Relocation_woxapi.png"
+            alt="Tenant Relocatioin"
+            width="225px"
+          />
+          <p>
+            TENANT <br />
+            RELOCATION
           </p>
         </NavLink>
       </div>

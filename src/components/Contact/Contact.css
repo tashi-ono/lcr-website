@@ -1,0 +1,12 @@
+#contact-page {
+  background-color: #eae7d8;
+  height: 100%;
+}
+
+#contact-page span {
+  background-color: #f3b33b;
+}
+
+span.asterick {
+  background-color: #eae7d8 !important;
+}

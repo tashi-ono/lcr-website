@@ -1,14 +1,12 @@
 #homepage-container {
-  height: 73.5%;
+  /* height: 100%; */
   width: 100%;
-  position: absolute;
 }
 
 #homepage-pic {
-  background-color: #67778a;
   background-image: url("https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1635617249/Luke%27s%20Website/Bank_of_Marin_he0sgm.png");
   background-repeat: no-repeat;
-  height: 100%;
+  height: calc(100% - 60px);
 }
 
 #homepage-pic > h3 {
@@ -156,5 +154,12 @@
 
   h3#strategy {
     padding-top: 130px;
+  }
+
+  .footer {
+    background-color: #67778a;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 0;
   }
 }

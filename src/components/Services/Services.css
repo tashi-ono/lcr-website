@@ -1,30 +1,16 @@
 #services-page {
   background-color: #e7e7e7;
-  height: calc(100% - 245px);
+  height: 100%;
   position: relative;
-}
-
-#services-header {
-  background-color: #448bca;
-}
-
-#services-header span {
-  background-color: white;
-  color: #448bca;
-  display: table;
-  font-family: "Flamenco", cursive;
-  font-size: 2rem;
-  margin: 0 auto;
-  padding: 1% 3%;
 }
 
 #services-border {
   background-color: #448bca;
-  left: 16vw;
-  padding: 20px 0;
+  margin-right: 0px;
+  padding: 10px 0;
   position: relative;
-  top: 50px;
-  width: calc(100% - 32vw);
+  top: 42px;
+  width: calc(100% - 31vw);
 }
 
 #services-border p {
@@ -49,8 +35,8 @@
 }
 
 #steel-frame {
-  left: 19.5vw;
-  top: 14vh;
+  left: 18.5vw;
+  bottom: 47vh;
 }
 
 #steel-frame p {
@@ -60,8 +46,8 @@
 }
 
 #health-care {
-  left: 7.7vw;
-  top: 26vh;
+  left: 6.7vw;
+  bottom: 33vh;
 }
 
 #health-care p {
@@ -71,19 +57,19 @@
 }
 
 #drywall {
-  left: 30vw;
-  top: 32vh;
+  left: 29vw;
+  bottom: 33vh;
 }
 
 #drywall p {
   color: white;
-  left: 2.5vw;
+  left: 2.6vw;
   top: 4.5vh;
 }
 
 #insulation {
-  bottom: 17vh;
-  left: 18.2vw;
+  bottom: 19vh;
+  left: 17.2vw;
 }
 
 #insulation p {
@@ -93,8 +79,8 @@
 }
 
 #demolition {
-  bottom: 17vh;
-  left: 41.8vw;
+  bottom: 19.2vh;
+  left: 40.8vw;
 }
 
 #demolition p {
@@ -104,8 +90,8 @@
 }
 
 #exteriors {
-  bottom: 3vh;
-  left: 30vw;
+  bottom: 5vh;
+  left: 29vw;
 }
 
 #exteriors p {
@@ -114,13 +100,35 @@
   left: 2.3vw;
 }
 
-#tenant {
-  bottom: 1.4vh;
-  left: 53.6vw;
+#improvement {
+  bottom: 4vh;
+  left: 52.6vw;
 }
 
-#tenant p {
+#improvement p {
   bottom: 4vh;
   color: white;
   left: 2.5vw;
+}
+
+#shells {
+  bottom: 19.5vh;
+  right: 18.8vw;
+}
+
+#shells p {
+  bottom: 5vh;
+  color: white;
+  right: 2.5vw;
+}
+
+#relocation {
+  bottom: 5.5vh;
+  right: 7vw;
+}
+
+#relocation p {
+  bottom: 4.2vh;
+  color: white;
+  right: 1.6vw;
 }
