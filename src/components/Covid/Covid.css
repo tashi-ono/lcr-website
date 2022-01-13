@@ -2,3 +2,21 @@
   background-color: #fff7d9;
   height: 100%;
 }
+
+#covid-page p {
+  font-size: 1.5rem;
+  padding-top: 50px;
+  text-align: center;
+}
+
+#covid-links {
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+}
+
+#covid-links a {
+  font-size: 2rem;
+  margin: 50px 0;
+  padding-right: 5px;
+}

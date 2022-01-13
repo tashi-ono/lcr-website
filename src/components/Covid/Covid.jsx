@@ -6,12 +6,12 @@ const Covid = () => {
   return (
     <div id="covid-page">
       <Header title="COVID-19" color="#9E0B0F" />
-      <p>
+      <p id="covid-pg-1">
         THE SAFETY OF OUR EMPLOYEES, CLIENTS, AND THE GENERAL PUBLIC IS
         PARAMOUNT TO OUR WORK EFFORT <br /> AS WE ALL CONTINUE TO PERSEVERE
         THROUGH THE COVID-19 PANDEMIC.
       </p>
-      <p>
+      <p id="covid-pg-2">
         THE CONSTRUCTION INDUSTRY HAS EXPERIENCED VERY SIGNIFICANT CHALLENGES
         RELATED TO RAW MATERIAL AVAILABILITY AND INFLATION. <br />
         COSTS FOR TRANSPORTATION, LABOR, AND FREIGHT ALSO CONTINUE TO ESCALATE
@@ -24,17 +24,18 @@ const Covid = () => {
         ACCURATE LEAD TIMES AND PRICING ON MATERIALS <br />
         TO ENSURE PUNCTUAL PROJECT TIMELINES AND CONCISE PROPOSALS.
       </p>
-      <p>
-        OUR COMPANY OPERATES IN STRICT ACCORDANCE WITH LOCAL AND ANTIONAL HEALTH
+      <p id="covid-pg-3">
+        OUR COMPANY OPERATES IN STRICT ACCORDANCE WITH LOCAL AND NATIONAL HEALTH
         ORDERS. <br />
         FOR MORE INFORMATION ON LOCAL BAY AREA HEALTH ORDERS, SEE LINKS BELOW.
       </p>
 
-      <div>
+      <div id="covid-links">
         <a href="https://coronavirus.marinhhs.org/">Marin County</a>
         <a href="https://www.sfdph.org/dph/alerts/coronavirus-healthorders.asp">
           San Francisco County
         </a>
+
         <a href="https://www.coronavirus.cchealth.org/health-orders">
           Contra Costa County
         </a>
