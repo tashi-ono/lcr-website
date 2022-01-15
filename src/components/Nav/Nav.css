@@ -8,6 +8,10 @@ nav a {
   font-size: 1.6rem;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 768px) {
   nav {
     justify-content: center;

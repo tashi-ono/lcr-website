@@ -14,7 +14,7 @@ const Homepage = () => {
         <h3 id="execution">EXECUTION</h3>
         <h3 id="compliance">COMPLIANCE</h3>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

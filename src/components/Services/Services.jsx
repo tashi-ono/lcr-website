@@ -18,7 +18,6 @@ const Services = () => {
           <img
             src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1641877417/Luke%27s%20Website/Services_Steel_Framing_knpczh.png"
             alt="Steel framing pic"
-            width="200px"
           />
           <p>
             STEEL <br />
@@ -31,7 +30,6 @@ const Services = () => {
           <img
             src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1641877412/Luke%27s%20Website/Services_Health_Care_hzaoax.png"
             alt="Health Care"
-            width="200px"
           />
           <p>HEALTH CARE</p>
         </NavLink>
@@ -41,7 +39,6 @@ const Services = () => {
           <img
             src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1641877412/Luke%27s%20Website/Services_Drywall_bhasuh.png"
             alt="Dry Wall"
-            width="225px"
           />
           <p>DRY WALL</p>
         </NavLink>
@@ -51,7 +48,6 @@ const Services = () => {
           <img
             src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1641877416/Luke%27s%20Website/Services_Insulation_qg2by9.png"
             alt="Insulation"
-            width="225px"
           />
           <p>INSULATION</p>
         </NavLink>
@@ -61,7 +57,6 @@ const Services = () => {
           <img
             src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1641877412/Luke%27s%20Website/Services_Demolition_pqax9m.png"
             alt="Demolition"
-            width="225px"
           />
           <p>DEMOLITION</p>
         </NavLink>
@@ -71,7 +66,6 @@ const Services = () => {
           <img
             src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1641877412/Luke%27s%20Website/Services_Exterior_rjjcec.png"
             alt="Exteriors"
-            width="225px"
           />
           <p>EXTERIORS</p>
         </NavLink>
@@ -81,7 +75,6 @@ const Services = () => {
           <img
             src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1641877419/Luke%27s%20Website/Services_Tenant_Improvement_bffvgo.png"
             alt="Tenant Improvement"
-            width="275px"
           />
           <p>
             TENANT <br />
@@ -94,7 +87,6 @@ const Services = () => {
           <img
             src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1641877416/Luke%27s%20Website/Services_Cold_Warm_Shell_arp7pd.png"
             alt="Cold Shell, Warm Shell"
-            width="275px"
           />
           <p>
             COLD SHELL
@@ -109,7 +101,6 @@ const Services = () => {
           <img
             src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1641877415/Luke%27s%20Website/Services_Tenant_Relocation_woxapi.png"
             alt="Tenant Relocatioin"
-            width="225px"
           />
           <p>
             TENANT <br />

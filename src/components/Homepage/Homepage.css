@@ -6,7 +6,7 @@
 #homepage-pic {
   background-image: url("https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1635617249/Luke%27s%20Website/Bank_of_Marin_he0sgm.png");
   background-repeat: no-repeat;
-  height: calc(100% - 60px);
+  height: 100%;
 }
 
 #homepage-pic > h3 {

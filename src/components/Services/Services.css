@@ -18,7 +18,7 @@
   border-style: solid;
   border-width: thin;
   color: white;
-  font-size: 2.4rem;
+  font-size: 2.1rem;
   padding: 20px 30px;
   margin: 0 10px;
   text-align: center;
@@ -35,96 +35,132 @@
 }
 
 #steel-frame {
-  left: 18.5vw;
-  bottom: 47vh;
+  left: 20.5vw;
+  bottom: 45vh;
+}
+
+#steel-frame img {
+  width: 175px;
 }
 
 #steel-frame p {
   color: white;
-  left: 2vw;
+  left: 1.5vw;
   top: 5vh;
 }
 
 #health-care {
-  left: 6.7vw;
-  bottom: 33vh;
+  left: 9vw;
+  bottom: 31vh;
+}
+
+#health-care img {
+  width: 195px;
 }
 
 #health-care p {
   color: white;
-  left: 1vw;
+  left: 0.7vw;
   top: 7.5vh;
 }
 
 #drywall {
-  left: 29vw;
-  bottom: 33vh;
+  left: 29.6vw;
+  bottom: 31vh;
+}
+
+#drywall img {
+  width: 200px;
 }
 
 #drywall p {
   color: white;
-  left: 2.6vw;
+  left: 2vw;
   top: 4.5vh;
 }
 
 #insulation {
-  bottom: 19vh;
-  left: 17.2vw;
+  bottom: 17vh;
+  left: 19.2vw;
+}
+
+#insulation img {
+  width: 200px;
 }
 
 #insulation p {
   bottom: 6vh;
   color: white;
-  left: 1.7vw;
+  left: 1.3vw;
 }
 
 #demolition {
-  bottom: 19.2vh;
-  left: 40.8vw;
+  bottom: 17vh;
+  left: 40vw;
+}
+
+#demolition img {
+  width: 200px;
 }
 
 #demolition p {
   bottom: 6vh;
   color: white;
-  left: 1.7vw;
+  left: 1.2vw;
 }
 
 #exteriors {
-  bottom: 5vh;
-  left: 29vw;
+  bottom: 3vh;
+  left: 29.6vw;
+}
+
+#exteriors img {
+  width: 200px;
 }
 
 #exteriors p {
   bottom: 6vh;
   color: white;
-  left: 2.3vw;
+  left: 1.8vw;
 }
 
 #improvement {
-  bottom: 4vh;
-  left: 52.6vw;
+  bottom: 3vh;
+  left: 50.4vw;
+}
+
+#improvement img {
+  width: 225px;
 }
 
 #improvement p {
   bottom: 4vh;
   color: white;
-  left: 2.5vw;
+  left: 1vw;
 }
 
 #shells {
-  bottom: 19.5vh;
-  right: 18.8vw;
+  bottom: 17.5vh;
+  right: 24.8vw;
+}
+
+#shells img {
+  width: 250px;
 }
 
 #shells p {
   bottom: 5vh;
   color: white;
-  right: 2.5vw;
+  right: 2.2vw;
 }
 
 #relocation {
-  bottom: 5.5vh;
-  right: 7vw;
+  bottom: 2vh;
+  right: 13vw;
+}
+
+#relocation img {
+  width: 225px;
 }
 
 #relocation p {

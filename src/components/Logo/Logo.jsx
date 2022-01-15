@@ -11,7 +11,6 @@ const Logo = () => {
         <img
           src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1641523628/Luke%27s%20Website/Logo_poogxo.jpg"
           alt="LCR Commercial Construction Logo"
-          width="300px"
         />
       </NavLink>
     </div>
