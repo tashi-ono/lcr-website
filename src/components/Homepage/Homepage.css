@@ -1,18 +1,24 @@
-#homepage-container {
-  /* height: 100%; */
-  width: 100%;
-}
-
 #homepage-pic {
-  background-image: url("https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1635617249/Luke%27s%20Website/Bank_of_Marin_he0sgm.png");
-  background-repeat: no-repeat;
-  height: 100%;
+  border: 15px solid black;
+  border-radius: 50px;
+  height: 200px;
+  margin-bottom: 20px;
+  width: 80vw;
 }
 
-#homepage-pic > h3 {
+#background-container {
+  background-image: url("https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1642372247/Luke%27s%20Website/Bank_of_Marin_inverted_a6b2xh.png");
+  background-position: -160px 0px;
+  background-repeat: no-repeat;
+  background-size: 145%;
+  height: 349px;
+}
+
+#background-container > h3 {
   color: white;
-  font-size: 3rem;
-  text-shadow: 2px 3px 10px rgb(59, 51, 51);
+  font-size: 2.5rem;
+  padding-left: 5px;
+  text-shadow: 1px 1px 1px rgb(59, 51, 51);
 }
 
 #strategy {
@@ -32,11 +38,11 @@
 }
 
 #compliance {
-  animation: fadeIn ease-in 5250ms;
-  -webkit-animation: fadeIn ease-in 5250ms;
-  -moz-animation: fadeIn ease-in 5250ms;
-  -o-animation: fadeIn ease-in 5250ms;
-  -ms-animation: fadeIn ease-in 5250ms;
+  animation: fadeIn ease-in 5s;
+  -webkit-animation: fadeIn ease-in 5s;
+  -moz-animation: fadeIn ease-in 5s;
+  -o-animation: fadeIn ease-in 5s;
+  -ms-animation: fadeIn ease-in 5s;
 }
 
 @keyframes fadeIn {
@@ -84,75 +90,9 @@
   }
 }
 
-@media only screen and (min-width: 350px) {
-  /* #homepage-pic {
-    background-position: -600px 0;
-    background-size: 300%;
-  } */
-}
-
-@media only screen and (min-width: 580px) {
-  /* #homepage-container {
-    height: 100%;
-  }
-  #homepage-pic {
-    background-position: -900px 0;
-  } */
-}
-
-@media only screen and (min-width: 767px) {
-  /* #homepage-pic {
-    background-position-x: 90%;
-  } */
-}
-
-@media only screen and (min-width: 790px) {
-  /* #homepage-pic {
-    background-position: 90% 0;
-    background-size: 300%;
-  } */
-}
-@media only screen and (min-width: 1020px) {
-  #homepage-pic {
-    /* background-position: -250px -80px;
-    background-size: 120%; */
-  }
-
-  #homepage-pic > h3 {
-    font-size: 6rem;
-    /* padding: 50px 0 20px 80px; */
-  }
-}
-
-@media only screen and (min-width: 1275px) {
-  /* #homepage-pic {
-    background-position: -100px -80px;
-    background-size: 110%;
-  }
-
-  #homepage-pic > h3 {
-    /* padding: 70px 0 10px 80px;
-  } */
-}
-
-@media only screen and (min-width: 1580px) {
-}
-
-@media only screen and (min-width: 1900px) {
-  #homepage-container {
-    height: calc(100% - 22.5%);
-  }
-
-  #homepage-pic {
-    background-position: 0 -180px;
-    background-size: 100%;
-  }
-
-  #homepage-pic > h3 {
-    padding: 60px 0 0 125px;
-  }
-
-  h3#strategy {
-    padding-top: 130px;
+@media only screen and (min-width: 400px) {
+  #background-container {
+    height: 400px;
+    margin-bottom: 0;
   }
 }

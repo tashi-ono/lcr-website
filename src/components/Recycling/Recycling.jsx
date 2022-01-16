@@ -1,11 +1,13 @@
 import React from "react";
 import Header from "../Header/Header";
+import PageTitle from "../PageTitle/PageTitle";
 import "./Recycling.css";
 
 const Recycling = () => {
   return (
     <div id="recycling-page">
-      <Header title="RECYCLING" color="#196537" />
+      <Header />
+      <PageTitle title="RECYCLING" color="#196537" />
       <div>
         <p>
           Recognizing our greater surroundings in the world we work in is a

@@ -1,12 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Header from "../Header/Header";
+import PageTitle from "../PageTitle/PageTitle";
 import "./Services.css";
 
 const Services = () => {
   return (
     <div id="services-page">
-      <Header title="SERVICES" color="#448BCA" />
+      <Header />
+      <PageTitle title="SERVICES" color="#448BCA" />
       <div id="services-border">
         <p>
           WORK WITH OUR EFFICIENT TEAM AND PARTNERING SUBCONTRACTORS <br /> FOR

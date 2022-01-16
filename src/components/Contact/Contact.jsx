@@ -1,11 +1,13 @@
 import React from "react";
 import Header from "../Header/Header";
+import PageTitle from "../PageTitle/PageTitle";
 import "./Contact.css";
 
 const Contact = () => {
   return (
     <div id="contact-page">
-      <Header title="CONTACT" color="#344654" />
+      <Header />
+      <PageTitle title="CONTACT" color="#344654" />
       <h3>CONTACT US</h3>
       <div>Google Map</div>
       <form>

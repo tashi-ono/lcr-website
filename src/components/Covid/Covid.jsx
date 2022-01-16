@@ -1,11 +1,13 @@
 import React from "react";
 import Header from "../Header/Header";
+import PageTitle from "../PageTitle/PageTitle";
 import "./Covid.css";
 
 const Covid = () => {
   return (
     <div id="covid-page">
-      <Header title="COVID-19" color="#9E0B0F" />
+      <Header />
+      <PageTitle title="COVID-19" color="#9E0B0F" />
       <p id="covid-p1">
         THE SAFETY OF OUR EMPLOYEES, CLIENTS, AND THE GENERAL PUBLIC IS
         PARAMOUNT TO OUR WORK EFFORT <br /> AS WE ALL CONTINUE TO PERSEVERE

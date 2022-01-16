@@ -1,13 +1,13 @@
 .footer {
   background-color: #67778a;
-  height: 4%;
+  /* height: 1%; */
   /* width: 100%; */
   /* margin-bottom: 0; */
 }
 
 .footer p {
   color: rgb(183, 187, 196);
-  font-size: 1rem;
-  text-align: right;
-  padding: 5px 50px 0 0;
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 5px 0;
 }

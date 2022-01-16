@@ -1,25 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
+import MobileNav from "../MobileNav/MobileNav";
 import Logo from "../Logo/Logo";
-import Nav from "../Nav/Nav";
-
+import Navigation from "../Navigation/Navigation";
 import "./Header.css";
 
-const Header = (props) => {
-  const divStyle = {
-    backgroundColor: props.color,
+const Header = () => {
+  const [mobileNavOpen, setMobileNavOpen] = useState(false);
+
+  const handleMobileNav = () => {
+    setMobileNavOpen(!mobileNavOpen);
   };
 
-  const spanStyle = {
-    color: props.color,
-  };
+  let showNavMenu = null;
+  if (mobileNavOpen) {
+    showNavMenu = <Navigation />;
+  }
 
   return (
     <>
       <Logo />
-      <Nav />
-      <div className="page-header" style={divStyle}>
-        <span style={spanStyle}>{props.title}</span>
-      </div>
+      <MobileNav handleMobileNav={handleMobileNav} />
+      {showNavMenu}
     </>
   );
 };
