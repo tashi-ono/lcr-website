@@ -1,8 +1,5 @@
 .footer {
   background-color: #67778a;
-  /* height: 1%; */
-  /* width: 100%; */
-  /* margin-bottom: 0; */
 }
 
 .footer p {
@@ -10,4 +7,26 @@
   font-size: 0.75rem;
   text-align: center;
   padding: 5px 0;
+}
+
+@media only screen and (min-width: 767px) {
+  .footer {
+    background-color: #6c7d8c;
+  }
+
+  .footer p {
+    padding: 9px 0;
+  }
+}
+
+@media only screen and (min-width: 1275px) {
+  .footer p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1360px) {
+  .footer p {
+    padding: 5px 0;
+  }
 }

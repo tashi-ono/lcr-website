@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   let showNavMenu = null;
-  if (mobileNavOpen) {
+  if (mobileNavOpen || window.innerWidth > 750) {
     showNavMenu = <Navigation />;
   }
 
