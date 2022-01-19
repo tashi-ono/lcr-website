@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../Footer/Footer";
+import ScrollAnimation from "react-animate-on-scroll";
 import Header from "../Header/Header";
 import "./Homepage.css";
 
@@ -8,13 +8,64 @@ const Homepage = () => {
     <>
       <Header />
       <div id="homepage-container">
-        <div id="homepage-pic"></div>
+        <ScrollAnimation
+          delay={200}
+          animateIn="fadeIn"
+          duration={3}
+          animateOnce={true}
+        >
+          <div id="homepage-pic"></div>
+        </ScrollAnimation>
         <div id="background-container">
-          <h3 id="strategy">STRATEGY</h3>
-          <h3 id="execution">EXECUTION</h3>
-          <h3 id="compliance">COMPLIANCE</h3>
+          <ScrollAnimation
+            delay={200}
+            animateIn="fadeIn"
+            duration={3}
+            animateOnce={true}
+          >
+            <h3 id="strategy">STRATEGY</h3>
+          </ScrollAnimation>
+          <ScrollAnimation
+            delay={400}
+            animateIn="fadeIn"
+            duration={3}
+            animateOnce={true}
+          >
+            <h3 id="execution">EXECUTION</h3>
+          </ScrollAnimation>
+          <ScrollAnimation
+            delay={600}
+            animateIn="fadeIn"
+            duration={3}
+            animateOnce={true}
+          >
+            <h3 id="compliance">COMPLIANCE</h3>
+          </ScrollAnimation>
+          <ScrollAnimation
+            delay={900}
+            animateIn="fadeIn"
+            duration={3}
+            animateOnce={true}
+          >
+            <img
+              id="marin-badge"
+              src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1642563081/Luke%27s%20Website/Marin_Builders_Badge_k83d3s.png"
+              alt="Marin Builders Badge"
+            />
+          </ScrollAnimation>
+          <ScrollAnimation
+            delay={1100}
+            animateIn="fadeIn"
+            duration={3}
+            animateOnce={true}
+          >
+            <img
+              id="nc-badge"
+              src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1642563087/Luke%27s%20Website/North_Coast_Builders_Exchange_kicswb.png"
+              alt="North Coast Builders Exchange Badge"
+            />
+          </ScrollAnimation>
         </div>
-        <Footer />
       </div>
     </>
   );

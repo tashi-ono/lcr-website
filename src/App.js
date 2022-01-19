@@ -4,7 +4,7 @@ import About from "./components/About/About";
 import Careers from "./components/Careers/Careers";
 import Contact from "./components/Contact/Contact";
 import Covid from "./components/Covid/Covid";
-
+import Footer from "./components/Footer/Footer";
 import Homepage from "./components/Homepage/Homepage";
 
 import Recycling from "./components/Recycling/Recycling";
@@ -24,6 +24,7 @@ const App = () => {
           <Route exact path="/careers" component={Careers} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

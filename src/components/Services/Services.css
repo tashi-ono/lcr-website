@@ -1,170 +1,62 @@
-#services-page {
-  background-color: #e7e7e7;
-  height: 100%;
-  position: relative;
-}
-
-#services-border {
-  background-color: #448bca;
-  margin-right: 0px;
-  padding: 10px 0;
-  position: relative;
-  top: 42px;
-  width: calc(100% - 31vw);
-}
-
-#services-border p {
-  background-color: #448bca;
-  border-style: solid;
-  border-width: thin;
-  color: white;
-  font-size: 2.1rem;
-  padding: 20px 30px;
-  margin: 0 10px;
+#services-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
   text-align: center;
 }
 
 .services-pics {
-  position: absolute;
+  margin-bottom: -15px;
+  position: relative;
+}
+
+.services-pics img {
+  padding-top: 10px;
+  width: 150px;
 }
 
 .services-pics p {
-  font-size: 1.9rem;
-  position: absolute;
-  text-align: center;
-}
-
-#steel-frame {
-  left: 20.5vw;
-  bottom: 45vh;
-}
-
-#steel-frame img {
-  width: 175px;
-}
-
-#steel-frame p {
+  bottom: 50%;
   color: white;
-  left: 1.5vw;
-  top: 5vh;
+  font-size: 1.2rem;
+
+  position: relative;
+}
+
+#services-p-border {
+  background-color: #448bca;
+  border-style: solid;
+  border-width: thin;
+  color: white;
+  font-size: 1.2rem;
+  grid-area: 1/1/2/3;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#services-p-border p {
+  border-width: thin;
+  border-style: solid;
+  margin: 1px;
+  padding: 20px 30px;
 }
 
 #health-care {
-  left: 9vw;
-  bottom: 31vh;
-}
-
-#health-care img {
-  width: 195px;
-}
-
-#health-care p {
-  color: white;
-  left: 0.7vw;
-  top: 7.5vh;
-}
-
-#drywall {
-  left: 29.6vw;
-  bottom: 31vh;
-}
-
-#drywall img {
-  width: 200px;
-}
-
-#drywall p {
-  color: white;
-  left: 2vw;
-  top: 4.5vh;
-}
-
-#insulation {
-  bottom: 17vh;
-  left: 19.2vw;
-}
-
-#insulation img {
-  width: 200px;
-}
-
-#insulation p {
-  bottom: 6vh;
-  color: white;
-  left: 1.3vw;
-}
-
-#demolition {
-  bottom: 17vh;
-  left: 40vw;
-}
-
-#demolition img {
-  width: 200px;
-}
-
-#demolition p {
-  bottom: 6vh;
-  color: white;
-  left: 1.2vw;
-}
-
-#exteriors {
-  bottom: 3vh;
-  left: 29.6vw;
-}
-
-#exteriors img {
-  width: 200px;
-}
-
-#exteriors p {
-  bottom: 6vh;
-  color: white;
-  left: 1.8vw;
+  grid-area: 2/1/3/2;
 }
 
 #improvement {
-  bottom: 3vh;
-  left: 50.4vw;
-}
-
-#improvement img {
-  width: 225px;
-}
-
-#improvement p {
-  bottom: 4vh;
-  color: white;
-  left: 1vw;
-}
-
-#shells {
-  bottom: 17.5vh;
-  right: 24.8vw;
-}
-
-#shells img {
-  width: 250px;
-}
-
-#shells p {
-  bottom: 5vh;
-  color: white;
-  right: 2.2vw;
+  margin-bottom: -30px;
 }
 
 #relocation {
-  bottom: 2vh;
-  right: 13vw;
+  margin-bottom: -40px;
 }
 
-#relocation img {
-  width: 225px;
+#shells {
+  grid-area: 6/1/7/3;
 }
 
-#relocation p {
-  bottom: 4.2vh;
-  color: white;
-  right: 1.6vw;
+#shells > a > img {
+  width: 200px;
 }

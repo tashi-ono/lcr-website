@@ -6,6 +6,12 @@
   padding: 5px 0 10px 0;
 }
 
+#mobile-nav h3 {
+  font-family: "Flamenco", cursive;
+  font-size: 1.8rem;
+  text-decoration-line: underline;
+}
+
 @media only screen and (min-width: 768px) {
   #mobile-nav {
     display: none;

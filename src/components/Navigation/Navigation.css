@@ -9,6 +9,23 @@ nav a {
   padding: 6px;
 }
 
+@media only screen and (max-width: 767px) {
+  nav a {
+    /* border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black; */
+    border: 2px solid grey;
+    box-shadow: 3px 4px 5px 0px grey;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+  }
+
+  nav a:nth-last-child(1) {
+    margin-bottom: 20px;
+  }
+}
+
 @media only screen and (min-width: 767px) {
   nav {
     flex-direction: row;
