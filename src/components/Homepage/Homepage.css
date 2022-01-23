@@ -44,17 +44,21 @@
   }
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 389px) {
   #homepage-pic {
-    height: 270px;
+    height: 280px;
   }
 
   .animated > h3 {
     font-size: 3rem;
   }
 
+  h3#strategy {
+    padding-top: 10px;
+  }
+
   #background-container {
-    background-size: 180%;
+    background-size: 187%;
   }
 
   #marin-badge {
@@ -108,25 +112,143 @@
   }
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 635px) {
   #homepage-pic {
-    display: none; /*temporarily hide pic box */
+    background-position: center;
+    background-size: 95%;
+  }
+}
+
+@media only screen and (min-width: 735px) and (min-height: 355px) {
+  .animated > h3 {
+    font-size: 3.5rem;
   }
 
-  #homepage-container {
-    height: 77%;
+  #homepage-pic {
+    position: absolute;
+    bottom: -220px;
+    right: 10px;
+    max-width: 400px;
+    max-height: 250px;
   }
 
   #background-container {
-    background-image: url("https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1635617249/Luke%27s%20Website/Bank_of_Marin_he0sgm.png");
-    background-position: -200px center;
-    background-size: 161%;
-    height: 100%;
+    background-position: center;
+    background-size: 110%;
   }
 
-  .animated > h3 {
-    padding: 10px 0 0 15px;
-    text-shadow: 2px 3px 10px rgb(59, 51, 51);
+  #marin-badge {
+    left: 125px;
+    bottom: -170px;
+    width: 175px;
+  }
+
+  #nc-badge {
+    left: 154px;
+    bottom: -300px;
+    width: 120px;
+  }
+
+  @media only screen and (min-height: 410px) {
+    #background-container {
+      background-size: 112%;
+    }
+
+    #homepage-pic {
+      max-width: 375px;
+      bottom: -200px;
+    }
+
+    h3#strategy {
+      padding-top: 40px;
+    }
+
+    #marin-badge {
+      left: 90px;
+      top: 470px;
+    }
+
+    #nc-badge {
+      left: 115px;
+      top: 440px;
+    }
+  }
+
+  @media only screen and (min-width: 850px) {
+    #homepage-pic {
+      bottom: -200px;
+      max-height: 500px;
+      max-width: 500px;
+    }
+    #marin-badge {
+      left: 125px;
+    }
+
+    #nc-badge {
+      left: 150px;
+    }
+  }
+}
+
+/* TABLET */
+
+@media only screen and (min-width: 767px) and (min-height: 1020px) {
+  #homepage-pic {
+    width: 450px;
+  }
+
+  #background-container {
+    position: absolute;
+    top: 200px;
+    background-position: 0px 285px;
+    background-size: 132%;
+    width: 100%;
+    height: 80vh;
+  }
+
+  h3#strategy {
+    padding-top: 300px;
+  }
+
+  #marin-badge {
+    top: 420px;
+    width: 260px;
+  }
+
+  #nc-badge {
+    top: 450px;
+    width: 220px;
+  }
+}
+
+@media only screen and (min-width: 795px) and (min-height: 1275px) {
+  #homepage-pic {
+    margin-top: 20px;
+    width: 600px;
+  }
+
+  #background-container {
+    position: absolute;
+    top: 200px;
+    background-position: 0px 285px;
+    background-size: 132%;
+    width: 100%;
+    height: 80vh;
+  }
+
+  h3#strategy {
+    padding-top: 300px;
+  }
+
+  #marin-badge {
+    top: 600px;
+    width: 300px;
+  }
+
+  #nc-badge {
+    right: 50px;
+    top: 650px;
+    width: 220px;
   }
 }
 
@@ -138,21 +260,6 @@
   #background-container {
     background-position: center;
     background-size: 121%;
-  }
-}
-
-@media only screen and (min-width: 768px) and (min-height: 1020px) {
-  #homepage-container {
-    height: 82.1%;
-  }
-
-  #background-container {
-    background-position: center 280px;
-    background-size: 146%;
-  }
-
-  h3#strategy {
-    padding-top: 300px;
   }
 }
 

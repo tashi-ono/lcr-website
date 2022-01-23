@@ -13,6 +13,7 @@ const Homepage = () => {
           animateIn="fadeIn"
           duration={3}
           animateOnce={true}
+          offset={100}
         >
           <div id="homepage-pic"></div>
         </ScrollAnimation>
@@ -46,6 +47,7 @@ const Homepage = () => {
             animateIn="fadeIn"
             duration={3}
             animateOnce={true}
+            offset={50}
           >
             <img
               id="marin-badge"
@@ -58,6 +60,7 @@ const Homepage = () => {
             animateIn="fadeIn"
             duration={3}
             animateOnce={true}
+            offset={50}
           >
             <img
               id="nc-badge"
