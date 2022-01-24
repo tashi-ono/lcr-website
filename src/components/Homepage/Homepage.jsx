@@ -43,11 +43,11 @@ const Homepage = () => {
             <h3 id="compliance">COMPLIANCE</h3>
           </ScrollAnimation>
           <ScrollAnimation
-            delay={900}
+            delay={800}
             animateIn="fadeIn"
             duration={3}
             animateOnce={true}
-            offset={50}
+            offset={25}
           >
             <img
               id="marin-badge"
@@ -56,11 +56,11 @@ const Homepage = () => {
             />
           </ScrollAnimation>
           <ScrollAnimation
-            delay={1100}
+            delay={1000}
             animateIn="fadeIn"
             duration={3}
             animateOnce={true}
-            offset={50}
+            offset={25}
           >
             <img
               id="nc-badge"
