@@ -9,11 +9,11 @@ const Homepage = () => {
       <Header />
       <div id="homepage-container">
         <ScrollAnimation
-          delay={200}
+          delay={100}
           animateIn="fadeIn"
           duration={3}
           animateOnce={true}
-          offset={100}
+          offset={50}
         >
           <div id="homepage-pic"></div>
         </ScrollAnimation>
