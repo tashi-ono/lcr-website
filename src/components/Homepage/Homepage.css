@@ -173,28 +173,10 @@
       left: 115px;
       top: 440px;
     }
-  }
 
-  @media only screen and (min-width: 850px) {
-    #homepage-pic {
-      bottom: -200px;
-      max-height: 500px;
-      max-width: 500px;
-    }
-
-    #background-container {
-      background-size: 130%;
-    }
-
-    #marin-badge {
-      left: 125px;
-    }
-
-    #nc-badge {
-      left: 150px;
+    @media only screen and (min-height: 765px) {
     }
   }
-
   @media only screen and (min-height: 1020px) {
     .animated > h3 {
       font-size: 4rem;
@@ -263,6 +245,26 @@
   }
 }
 
+@media only screen and (min-width: 850px) {
+  #homepage-pic {
+    bottom: -200px;
+    max-height: 500px;
+    max-width: 500px;
+  }
+
+  #background-container {
+    background-size: 130%;
+  }
+
+  #marin-badge {
+    left: 125px;
+  }
+
+  #nc-badge {
+    left: 150px;
+  }
+}
+
 @media only screen and (min-width: 960px) and (min-height: 595px) {
   #homepage-pic {
     bottom: -70px;
@@ -286,7 +288,7 @@
 }
 
 @media only screen and (min-width: 1020px) {
-  @media only screen and (max-height: 760px) {
+  @media only screen and (max-height: 590px) {
     .animated > h3 {
       font-size: 5rem;
       line-height: 1.6;
@@ -320,30 +322,48 @@
   @media only screen and (min-height: 760px) {
     #homepage-pic {
       max-width: 600px;
+      top: 375px;
+    }
+
+    #background-container {
+      background-size: 153%;
     }
 
     .animated > h3 {
-      font-size: 4.5rem;
+      font-size: 4rem;
       padding-left: 50px;
     }
 
     #marin-badge {
-      left: 275px;
+      left: 75px;
       top: 525px;
-      width: 300px;
+      width: 275px;
     }
 
     #nc-badge {
-      left: 300px;
+      left: 100px;
       top: 560px;
-      width: 245px;
+      width: 225px;
+    }
+  }
+
+  @media only screen and (min-height: 790px) {
+    #background-container {
+      background-size: 170%;
+    }
+
+    #marin-badge {
+      left: 180px;
+    }
+
+    #nc-badge {
+      left: 205px;
     }
   }
 
   @media only screen and (min-height: 1020px) {
     #homepage-pic {
       max-height: 1200px;
-      /* height: 900px; */
       position: absolute;
       top: 300px;
       right: -600px;
@@ -377,33 +397,76 @@
   }
 }
 
+@media only screen and (min-width: 1275px) {
+  @media only screen and (min-height: 640px) {
+    .animated > h3 {
+      font-size: 4.5rem;
+      line-height: 1.8;
+      padding-left: 50px;
+      text-shadow: 2px 2px 1px rgb(59, 51, 51);
+    }
+
+    h3#strategy {
+      padding-top: 180px;
+    }
+
+    #marin-badge {
+      top: 425px;
+      left: 480px;
+      width: 200px;
+    }
+
+    #nc-badge {
+      top: 450px;
+      left: 490px;
+      width: 180px;
+    }
+  }
+
+  @media only screen and (min-height: 1020px) {
+    .animated > h3 {
+      font-size: 5rem;
+    }
+
+    #homepage-pic {
+      background-size: 500px;
+      top: 375px;
+      left: 100px;
+    }
+
+    #marin-badge {
+      top: 225px;
+      right: 550px;
+      width: 220px;
+    }
+
+    #nc-badge {
+      top: 300px;
+      right: 560px;
+      /* width: 180px; */
+    }
+  }
+}
+
 @media only screen and (min-width: 1435px) {
   @media only screen and (min-height: 860px) {
     #homepage-pic {
-      /* max-height: 400px; */
       position: absolute;
       top: 400px;
       right: 50px;
     }
 
     .animated > h3 {
-      font-size: 6rem;
+      font-size: 5rem;
       line-height: 1.6;
-      text-shadow: 3px 2px 1px rgb(59, 51, 51);
-    }
-
-    h3#strategy {
-      padding-top: 50px;
     }
 
     #marin-badge {
-      top: 725px;
-      left: 100px;
+      left: 525px;
     }
 
     #nc-badge {
-      top: 550px;
-      left: 475px;
+      left: 540px;
     }
   }
 }
@@ -425,7 +488,7 @@
     }
 
     #marin-badge {
-      left: 575px;
+      left: 590px;
       top: 325px;
     }
 
@@ -435,34 +498,52 @@
     }
   }
 
-  @media only screen and (min-height: 1045px) {
-    #homepage-pic {
-      top: 400px;
-      right: -900px;
+  @media only screen and (min-height: 895px) {
+    .animated > h3 {
+      padding-left: 100px;
     }
 
+    #marin-badge {
+      left: 665px;
+    }
+
+    #nc-badge {
+      left: 675px;
+    }
+  }
+
+  @media only screen and (min-height: 1045px) {
     #background-container {
-      background-position: center -220px;
-      background-size: 125%;
-      height: 80vh;
+      background-position: center -80px;
+      background-size: 110%;
+      height: 100%;
+    }
+
+    #homepage-pic {
+      max-height: 800px;
+      max-width: 575px;
+      background-size: 100%;
+      left: 950px;
+      top: 350px;
+    }
+    .animated > h3 {
+      font-size: 6rem;
     }
 
     h3#strategy {
       padding-top: 150px;
     }
 
-    .animated > h3 {
-      padding-left: 100px;
-    }
-
     #marin-badge {
-      left: -270px;
-      top: 250px;
+      left: 505px;
+      top: 180px;
+      width: 275px;
     }
 
     #nc-badge {
-      left: -250px;
-      top: 325px;
+      left: 525px;
+      top: 290px;
+      width: 225px;
     }
   }
 }
@@ -473,19 +554,38 @@
     background-position: center -189px;
   }
 
+  .animated > h3 {
+    font-size: 6.5rem;
+  }
+
   #homepage-pic {
-    height: 500px;
+    height: 520px;
     max-width: 750px;
+    left: 1130px;
   }
 
   #marin-badge {
-    left: 680px;
+    left: 750px;
     top: 350px;
+    width: 275px;
   }
 
   #nc-badge {
-    left: 710px;
+    left: 775px;
     top: 425px;
+    width: 225px;
+  }
+
+  @media only screen and (min-height: 1075px) {
+    #marin-badge {
+      left: 450px;
+      top: 250px;
+    }
+
+    #nc-badge {
+      left: 475px;
+      top: 325px;
+    }
   }
 }
 
@@ -498,25 +598,26 @@
   }
 
   h3#strategy {
-    padding-top: 275px;
+    padding-top: 225px;
   }
 
   #marin-badge {
-    right: 1000px;
+    right: 715px;
     top: 300px;
     width: 400px;
   }
 
   #nc-badge {
-    right: 1020px;
+    right: 720px;
     top: 475px;
     width: 325px;
   }
 
   #homepage-pic {
-    left: 400px;
-    height: 650px;
+    left: 1400px;
+    height: 690px;
     max-width: 1000px;
+    top: 400px;
   }
 
   #background-container {
