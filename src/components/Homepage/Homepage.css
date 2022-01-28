@@ -225,7 +225,7 @@
 
     #background-container {
       bottom: 0px;
-      background-position: -300px -185px;
+      background-position: -300px -155px;
       background-size: 201%;
       height: 650px;
       max-height: 100vh;
@@ -430,8 +430,9 @@
 
     #homepage-pic {
       background-size: 500px;
-      top: 375px;
       left: 100px;
+      top: 375px;
+      width: 500px;
     }
 
     #marin-badge {
@@ -443,7 +444,6 @@
     #nc-badge {
       top: 300px;
       right: 560px;
-      /* width: 180px; */
     }
   }
 }
@@ -517,6 +517,7 @@
       background-position: center -80px;
       background-size: 110%;
       height: 100%;
+      top: 185px;
     }
 
     #homepage-pic {
