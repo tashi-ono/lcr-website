@@ -23,7 +23,6 @@
   bottom: 50%;
   color: white;
   font-size: 1.2rem;
-
   position: relative;
 }
 
@@ -34,8 +33,8 @@
   color: white;
   font-size: 1.2rem;
   grid-area: 1/1/2/3;
-  padding: 5px;
   margin-bottom: 10px;
+  padding: 5px;
 }
 
 #services-p-border p {
@@ -125,8 +124,8 @@
     }
 
     #insulation p {
-      right: 50px;
       bottom: 70px;
+      right: 50px;
     }
 
     #demolition {
@@ -141,8 +140,8 @@
 
     #demolition p {
       bottom: 85px;
-      left: 25px;
       font-size: 1.6rem;
+      left: 25px;
     }
 
     #shells {
@@ -168,9 +167,9 @@
     }
 
     #exteriors p {
-      left: 25px;
       bottom: 85px;
       font-size: 1.6rem;
+      left: 25px;
     }
 
     #improvement {
@@ -185,9 +184,9 @@
     }
 
     #improvement p {
-      right: 45px;
       bottom: 85px;
       font-size: 1.4rem;
+      right: 45px;
     }
 
     #relocation {
@@ -202,9 +201,9 @@
     }
 
     #relocation p {
-      left: 25px;
       bottom: 85px;
       font-size: 1.4rem;
+      left: 25px;
     }
   }
 }
@@ -213,6 +212,348 @@
   @media only screen and (min-height: 1020px) {
     #services-page {
       height: 100%;
+    }
+  }
+}
+
+@media only screen and (min-width: 910px) {
+  @media only screen and (min-height: 410px) {
+    #services-container {
+      grid-template-columns: repeat(7, 1fr);
+    }
+
+    #services-p-border {
+      grid-area: 1/3/2/8;
+      margin-top: 30px;
+      margin-bottom: 92px;
+      width: 100%;
+    }
+
+    #services-p-border p {
+      font-size: 1.4rem;
+      padding: 10px;
+    }
+
+    #health-care {
+      align-self: center;
+      grid-area: 1/1/3/2;
+      margin-top: 50px;
+      margin-left: 10px;
+      width: 80px;
+    }
+
+    #health-care p {
+      font-size: 1rem;
+      right: 10px;
+      top: -70px;
+      width: 120px;
+    }
+
+    #health-care img {
+      width: 100px;
+    }
+
+    #drywall {
+      grid-area: 2/3/3/4;
+      margin-left: -15px;
+      margin-top: -60px;
+    }
+
+    #drywall img {
+      width: 130px;
+    }
+
+    #drywall p {
+      font-size: 1.2rem;
+      top: -65px;
+    }
+
+    #steel-frame {
+      grid-area: 1/2/2/3;
+    }
+
+    #steel-frame {
+      margin-right: 15px;
+      margin-top: 60px;
+    }
+
+    #steel-frame img {
+      width: 100px;
+    }
+
+    #steel-frame p {
+      font-size: 1.2rem;
+      top: -75px;
+    }
+
+    #insulation {
+      grid-area: 3/2/4/3;
+    }
+
+    #insulation img {
+      margin-right: 13px;
+      margin-top: -25px;
+      width: 135px;
+    }
+
+    #insulation p {
+      right: 7px;
+      width: 125px;
+    }
+
+    #demolition {
+      grid-area: 3/4/4/5;
+      margin-right: 8px;
+      margin-left: 11px;
+      margin-top: -5px;
+    }
+
+    #demolition img {
+      margin-left: -165px;
+      margin-top: -25px;
+      width: 140px;
+      /* height: 100px; */
+    }
+
+    #demolition p {
+      bottom: 60px;
+      left: -82px;
+      font-size: 1.2rem;
+    }
+
+    #shells {
+      grid-area: 3/6/4/7;
+      margin-left: -105px;
+      margin-bottom: 90px;
+      margin-top: -40px;
+      width: 170px;
+    }
+
+    #shells img {
+      margin-right: 0;
+      width: 140px;
+    }
+
+    #shells p {
+      right: 1px;
+      font-size: 1.2rem;
+    }
+
+    #exteriors {
+      grid-area: 4/3/5/4;
+      margin-top: -175px;
+      margin-right: 55px;
+      margin-left: -5px;
+    }
+
+    #exteriors img {
+      margin-left: -46px;
+      width: 130px;
+    }
+
+    #exteriors p {
+      left: -25px;
+      bottom: 60px;
+      font-size: 1.2rem;
+      width: 160px;
+    }
+
+    #improvement {
+      grid-area: 4/5/5/6;
+      margin-left: -70px;
+      margin-top: -145px;
+    }
+
+    #improvement img {
+      width: 140px;
+    }
+
+    #improvement p {
+      bottom: 70px;
+      font-size: 1.2rem;
+    }
+
+    #relocation {
+      grid-area: 4/7/5/8;
+      margin-top: -135px;
+      margin-left: -95px;
+    }
+
+    #relocation img {
+      width: 130px;
+    }
+
+    #relocation p {
+      bottom: 75px;
+      font-size: 1.2rem;
+      width: 130px;
+    }
+  }
+
+  @media only screen and (min-height: 590px) {
+    #health-care {
+      margin-left: 30px;
+      margin-bottom: -30px;
+    }
+
+    #drywall {
+      margin-top: -35px;
+    }
+
+    #demolition {
+      margin-left: 2px;
+      margin-top: 1px;
+    }
+
+    #demolition img {
+      width: 160px;
+      /* height: 110px; */
+    }
+
+    #insulation img {
+      width: 150px;
+      /* height: 110px; */
+    }
+
+    #insulation p {
+      bottom: 65px;
+    }
+
+    #exteriors {
+      margin-top: -215px;
+      margin-right: 58px;
+    }
+
+    #improvement {
+      margin-left: -75px;
+      margin-top: -185px;
+    }
+
+    #improvement img {
+      /* height: 10px; */
+      width: 170px;
+    }
+
+    #improvement p {
+      top: -80px;
+    }
+
+    #shells {
+      /* height: 130px; */
+      margin-bottom: 130px;
+      margin-top: -40px;
+      margin-left: -95px;
+    }
+
+    #shells img {
+      width: 160px;
+    }
+
+    #shells p {
+      top: -90px;
+    }
+
+    #relocation {
+      margin-left: -95px;
+      margin-top: -172px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1275px) {
+  @media only screen and (min-height: 715px) {
+    #services-p-border p {
+      font-size: 1.7rem;
+    }
+    #services-p-border {
+      /* padding-bottom: 5px; */
+      margin-bottom: 85px;
+    }
+
+    #health-care {
+      margin-bottom: -50px;
+    }
+
+    #health-care img {
+      width: 120px;
+    }
+
+    #health-care p {
+      right: -1px;
+      top: -80px;
+      font-size: 1.2rem;
+    }
+
+    #steel-frame img {
+      width: 125px;
+    }
+
+    #steel-frame p {
+      top: -85px;
+    }
+
+    #drywall {
+      margin-top: -15px;
+    }
+
+    #drywall img {
+      width: 160px;
+    }
+
+    #insulation {
+      margin-right: 2px;
+    }
+
+    #insulation img {
+      width: 160px;
+    }
+
+    #exteriors {
+      margin-right: 50px;
+      margin-left: 8px;
+      margin-top: -210px;
+    }
+
+    #exteriors img {
+      width: 160px;
+    }
+
+    #demolition {
+      margin-left: 35px;
+    }
+
+    #demolition img {
+      width: 160px;
+    }
+
+    #improvement {
+      margin-left: -65px;
+    }
+
+    #improvement img {
+      width: 200px;
+    }
+
+    #shells {
+      margin-top: -135px;
+    }
+
+    #shells img {
+      margin-top: 65px;
+      width: 200px;
+    }
+
+    #shells p {
+      top: -105px;
+      width: 200px;
+    }
+
+    #relocation {
+      margin-left: -110px;
+    }
+
+    #relocation img {
+      width: 160px;
     }
   }
 }

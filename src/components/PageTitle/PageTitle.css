@@ -5,9 +5,20 @@
   background-color: white;
   display: table;
   font-family: "Flamenco", cursive;
-  font-size: 2rem;
+  /* font-size: 2rem; */
+  font-size: 1.4rem;
   margin: 0 auto;
   padding: 1%;
   text-align: center;
-  width: 250px;
+  /* width: 250px; */
+  width: 170px;
+}
+
+@media only screen and (min-width: 1020px) {
+  @media only screen and (min-height: 595px) {
+    .page-header span {
+      font-size: 1.8rem;
+      width: 225px;
+    }
+  }
 }
