@@ -28,6 +28,14 @@
   }
 }
 
+/* @media only screen and (min-width: 1020px) {
+  @media only screen and (min-height: 765px) {
+    .footer {
+      margin-bottom: 0;
+    }
+  }
+} */
+
 @media only screen and (min-width: 1275px) {
   .footer p {
     font-size: 1rem;

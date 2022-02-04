@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Header from "../Header/Header";
-import PageTitle from "../PageTitle/PageTitle";
+import Header from "../Header/Header.jsx";
+import PageTitle from "../PageTitle/PageTitle.jsx";
 import "./Services.css";
 
 const Services = () => {

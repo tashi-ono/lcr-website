@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Header/Header";
+import Map from "../Map/Map";
 import PageTitle from "../PageTitle/PageTitle";
 import "./Contact.css";
 
@@ -9,7 +10,7 @@ const Contact = () => {
       <Header />
       <PageTitle title="CONTACT" color="#344654" />
       <h3>CONTACT US</h3>
-      <div>Google Map</div>
+      <Map />
       <form>
         <label for="fname">
           First Name<span className="asterick">*</span>

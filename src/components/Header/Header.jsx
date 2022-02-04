@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import MobileNav from "../MobileNav/MobileNav";
-import Logo from "../Logo/Logo";
-import Navigation from "../Navigation/Navigation";
+import MobileNav from "../MobileNav/MobileNav.jsx";
+import Logo from "../Logo/Logo.jsx";
+import Navigation from "../Navigation/Navigation.jsx";
 import "./Header.css";
 
 const Header = () => {
