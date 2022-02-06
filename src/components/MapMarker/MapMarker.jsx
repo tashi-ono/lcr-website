@@ -6,8 +6,7 @@ const MapMarker = ({ location }) => {
   const [openInfoWindow, setOpenInfoWindow] = useState(true);
 
   const handleInfoWindow = () => {
-    setOpenInfoWindow(true);
-    console.log("handle clickssss");
+    setOpenInfoWindow(!openInfoWindow);
   };
 
   return (
@@ -24,9 +23,10 @@ const MapMarker = ({ location }) => {
           <InfoWindow
             anchor={location}
             position={{
-              lat: location.lat + 0.1,
+              lat: location.lat,
               lng: location.lng,
             }}
+            options={{ pixelOffset: (-30, 0) }}
             zIndex={1}
           >
             <div className="info-box">

@@ -7,6 +7,14 @@
   background-color: #f3b33b;
 }
 
-span.asterick {
-  background-color: #eae7d8 !important;
+#map-and-contact {
+  display: flex;
+  align-items: flex-end;
+}
+#contact-form {
+  margin-top: 50px;
+  width: 40vw;
+}
+#contact-submit {
+  background-color: #f3b33b;
 }

@@ -6,9 +6,9 @@ import Contact from "./components/Contact/Contact";
 import Covid from "./components/Covid/Covid";
 import Footer from "./components/Footer/Footer";
 import Homepage from "./components/Homepage/Homepage";
-
 import Recycling from "./components/Recycling/Recycling";
 import Services from "./components/Services/Services";
+import "semantic-ui-css/semantic.min.css";
 import "./App.css";
 
 const App = () => {

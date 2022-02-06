@@ -1,10 +1,11 @@
 import React from "react";
-// import GoogleMapReact from "google-map-react";
 import { GoogleMap, LoadScript } from "@react-google-maps/api";
 import MapMarker from "../MapMarker/MapMarker";
 import "./Map.css";
 
 const containerStyle = {
+  border: "30px solid #f1793d",
+  borderRadius: "15px",
   height: "50vh",
   width: "40vw",
 };

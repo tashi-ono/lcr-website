@@ -1,6 +1,8 @@
 .map-border {
-  border: 30px solid #f1793d;
-  border-radius: 5px;
-  box-shadow: -15px 10px 2px 25px #a92c2d;
+  border: 10px solid #a92c2d;
+  border-radius: 25px;
+  box-shadow: -16px 16px 0px 0px #a92c2d;
+  display: inline-block;
+  height: max-content;
   width: max-content;
 }
