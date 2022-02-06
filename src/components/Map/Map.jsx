@@ -1,29 +1,36 @@
 import React from "react";
-import GoogleMapReact from "google-map-react";
-import LocationPin from "../LocationPin/LocationPin";
+// import GoogleMapReact from "google-map-react";
+import { GoogleMap, LoadScript } from "@react-google-maps/api";
+import MapMarker from "../MapMarker/MapMarker";
 import "./Map.css";
 
+const containerStyle = {
+  height: "50vh",
+  width: "40vw",
+};
+
+const center = {
+  lat: 37.85813255424837,
+  lng: -122.46768748944913,
+};
+
 const location = {
-  address: "2186 California Street, Ste. 8 San Francisco, CA 94115",
   lat: 37.7896664,
   lng: -122.4326249,
 };
 
 const Map = () => (
-  <div className="map">
-    <div className="google-map">
-      <GoogleMapReact
-        bootstrapURLKeys={{ key: "" }}
-        defaultCenter={location}
-        defaultZoom={17}
+  <div className="map-border">
+    <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAP_API}>
+      <GoogleMap
+        mapContainerStyle={containerStyle}
+        center={center}
+        clickableIcons={false}
+        zoom={9}
       >
-        <LocationPin
-          lat={location.lat}
-          lng={location.lng}
-          text={location.address}
-        />
-      </GoogleMapReact>
-    </div>
+        <MapMarker location={location} />
+      </GoogleMap>
+    </LoadScript>
   </div>
 );
 
