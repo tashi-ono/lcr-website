@@ -1,6 +1,5 @@
 #contact-page {
   background-color: #eae7d8;
-  height: 100%;
 }
 
 #contact-page span {
@@ -9,12 +8,15 @@
 
 #map-and-contact {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 #contact-form {
-  margin-top: 50px;
+  padding: 50px 0;
   width: 40vw;
 }
 #contact-submit {
   background-color: #f3b33b;
 }
+
+/* @media only screen and (min-width: 1200px) {
+} */

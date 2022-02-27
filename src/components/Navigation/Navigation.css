@@ -4,6 +4,7 @@ nav {
 }
 
 nav a {
+  color: black;
   font-family: "Flamenco", cursive;
   font-size: 1.6rem;
   padding: 6px;

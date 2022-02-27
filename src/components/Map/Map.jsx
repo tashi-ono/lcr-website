@@ -6,7 +6,7 @@ import "./Map.css";
 const containerStyle = {
   border: "30px solid #f1793d",
   borderRadius: "15px",
-  height: "50vh",
+  height: "60vh",
   width: "40vw",
 };
 

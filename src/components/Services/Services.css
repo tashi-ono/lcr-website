@@ -203,7 +203,7 @@
     #relocation p {
       bottom: 85px;
       font-size: 1.4rem;
-      left: 25px;
+      left: 55px;
     }
   }
 }
@@ -385,6 +385,7 @@
     #relocation p {
       bottom: 75px;
       font-size: 1.2rem;
+      /* left: 55px; */
       width: 130px;
     }
   }
