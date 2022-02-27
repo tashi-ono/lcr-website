@@ -16,32 +16,32 @@ const Covid = () => {
       <div id="covid-imgs">
         <img
           id="construction"
-          src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1642052808/Luke%27s%20Website/Covid_19_Construction_f940aa.png"
+          src="https://res.cloudinary.com/tca7lsohuid8/image/upload/v1642052808/lcr_website/Covid_19_Construction_f940aa.png"
           alt="Construction"
           width="21%"
         />
         <img
           id="electrical"
-          src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1642052810/Luke%27s%20Website/Covid_19_Electrical_w3rqpq.png"
+          src="https://res.cloudinary.com/tca7lsohuid8/image/upload/v1642052810/lcr_website/Covid_19_Electrical_w3rqpq.png"
           alt="Electrical"
           width="20%"
         />
 
         <img
           id="lumber"
-          src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1642052809/Luke%27s%20Website/Covid_19_Lumber_ammtim.png"
+          src="https://res.cloudinary.com/tca7lsohuid8/image/upload/v1642052809/lcr_website/Covid_19_Lumber_ammtim.png"
           alt="Lumber"
           width="25%"
         />
         <img
           id="metal"
-          src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1642052811/Luke%27s%20Website/Covid_19_Metal_Supplies_np5adf.png"
+          src="https://res.cloudinary.com/tca7lsohuid8/image/upload/v1642052811/lcr_website/Covid_19_Metal_Supplies_np5adf.png"
           alt="Metal Supplies"
           width="25%"
         />
         <img
           id="distancing"
-          src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1642052803/Luke%27s%20Website/Covid_19_Distancing_ru9ouv.png"
+          src="https://res.cloudinary.com/tca7lsohuid8/image/upload/v1642052803/lcr_website/Covid_19_Distancing_ru9ouv.png"
           alt="Distancing"
           width="22%"
         />

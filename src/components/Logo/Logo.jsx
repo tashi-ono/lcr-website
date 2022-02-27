@@ -9,7 +9,7 @@ const Logo = () => {
     <div id="logo">
       <NavLink to="/">
         <img
-          src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1641523628/Luke%27s%20Website/Logo_poogxo.jpg"
+          src="https://res.cloudinary.com/tca7lsohuid8/image/upload/v1641523628/lcr_website/Logo_poogxo.jpg"
           alt="LCR Commercial Construction Logo"
         />
       </NavLink>

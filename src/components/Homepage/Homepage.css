@@ -1,5 +1,5 @@
 #homepage-pic {
-  background-image: url("https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1642563116/Luke%27s%20Website/Plan_Desk_with_Border_ozfw9n.png");
+  background-image: url("https://res.cloudinary.com/tca7lsohuid8/image/upload/v1642563116/lcr_website/Plan_Desk_with_Border_ozfw9n.png");
   background-repeat: no-repeat;
   background-size: 100%;
   height: 245px;
@@ -8,7 +8,7 @@
 }
 
 #background-container {
-  background-image: url("https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1642372247/Luke%27s%20Website/Bank_of_Marin_inverted_a6b2xh.png");
+  background-image: url("https://res.cloudinary.com/tca7lsohuid8/image/upload/v1642372247/lcr_website/Bank2_inverted_a6b2xh.png");
   background-position: -160px 0px;
   background-repeat: no-repeat;
   background-size: 145%;
@@ -133,7 +133,7 @@
   }
 
   #background-container {
-    background-image: url("https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1635617249/Luke%27s%20Website/Bank_of_Marin_he0sgm.png");
+    background-image: url("https://res.cloudinary.com/tca7lsohuid8/image/upload/v1635617249/lcr_website/Bank_he0sgm.png");
     background-position: center 5px;
     background-size: 140%;
   }

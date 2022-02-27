@@ -51,7 +51,7 @@ const Homepage = () => {
           >
             <img
               id="marin-badge"
-              src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1642563081/Luke%27s%20Website/Marin_Builders_Badge_k83d3s.png"
+              src="https://res.cloudinary.com/tca7lsohuid8/image/upload/v1642563081/lcr_website/Marin_Builders_Badge_k83d3s.png"
               alt="Marin Builders Badge"
             />
           </ScrollAnimation>
@@ -64,7 +64,7 @@ const Homepage = () => {
           >
             <img
               id="nc-badge"
-              src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1642563087/Luke%27s%20Website/North_Coast_Builders_Exchange_kicswb.png"
+              src="https://res.cloudinary.com/tca7lsohuid8/image/upload/v1642563087/lcr_website/North_Coast_Builders_Exchange_kicswb.png"
               alt="North Coast Builders Exchange Badge"
             />
           </ScrollAnimation>
