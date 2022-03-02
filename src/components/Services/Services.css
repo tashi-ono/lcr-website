@@ -33,7 +33,6 @@
   color: white;
   font-size: 1.2rem;
   grid-area: 1/1/2/3;
-  margin-bottom: 10px;
   padding: 5px;
 }
 
@@ -98,7 +97,6 @@
     }
 
     #drywall p {
-      font-size: 1.6rem;
       top: -80px;
     }
 
@@ -140,7 +138,6 @@
 
     #demolition p {
       bottom: 85px;
-      font-size: 1.6rem;
       left: 25px;
     }
 
@@ -168,7 +165,6 @@
 
     #exteriors p {
       bottom: 85px;
-      font-size: 1.6rem;
       left: 25px;
     }
 
@@ -185,7 +181,6 @@
 
     #improvement p {
       bottom: 85px;
-      font-size: 1.4rem;
       right: 45px;
     }
 
@@ -202,8 +197,21 @@
 
     #relocation p {
       bottom: 85px;
-      font-size: 1.4rem;
-      left: 55px;
+      width: 100px;
+    }
+  }
+
+  @media only screen and (min-height: 850px) {
+    #relocation p {
+      left: 85px;
+    }
+  }
+}
+
+@media only screen and (min-width: 635px) {
+  @media only screen and (min-height: 355px) {
+    #relocation p {
+      left: 85px;
     }
   }
 }
@@ -224,8 +232,8 @@
 
     #services-p-border {
       grid-area: 1/3/2/8;
+      height: 85px;
       margin-top: 30px;
-      margin-bottom: 140px;
       width: 100%;
     }
 
@@ -243,7 +251,6 @@
     }
 
     #health-care p {
-      font-size: 1rem;
       right: 10px;
       top: -70px;
       width: 120px;
@@ -256,7 +263,7 @@
     #drywall {
       grid-area: 2/3/3/4;
       margin-left: -15px;
-      margin-top: -75px;
+      margin-top: -20px;
     }
 
     #drywall img {
@@ -264,7 +271,6 @@
     }
 
     #drywall p {
-      font-size: 1.2rem;
       top: -65px;
     }
 
@@ -282,7 +288,6 @@
     }
 
     #steel-frame p {
-      font-size: 1.2rem;
       top: -75px;
     }
 
@@ -297,7 +302,7 @@
     }
 
     #insulation p {
-      right: 7px;
+      right: -3px;
       width: 125px;
     }
 
@@ -317,7 +322,6 @@
     #demolition p {
       bottom: 60px;
       left: -82px;
-      font-size: 1.2rem;
     }
 
     #shells {
@@ -335,7 +339,6 @@
 
     #shells p {
       right: 1px;
-      font-size: 1.2rem;
     }
 
     #exteriors {
@@ -353,7 +356,6 @@
     #exteriors p {
       left: -25px;
       bottom: 60px;
-      font-size: 1.2rem;
       width: 160px;
     }
 
@@ -384,19 +386,25 @@
 
     #relocation p {
       bottom: 75px;
-      font-size: 1.2rem;
-      /* left: 55px; */
-      width: 130px;
-    }
-  }
-
-  @media only screen and (min-height: 590px) {
-    #health-care {
-      margin-left: 15px;
+      left: 70px;
     }
 
-    #relocation {
-      margin-left: -115px;
+    @media only screen and (min-height: 595px) {
+      #services-p-border {
+        height: 95px;
+      }
+
+      #services-p-border p {
+        font-size: 1.5rem;
+      }
+
+      #health-care {
+        margin-left: 15px;
+      }
+
+      #relocation {
+        margin-left: -115px;
+      }
     }
   }
 }
@@ -448,103 +456,18 @@
       margin-bottom: 135px;
     }
   }
+
+  @media only screen and (min-height: 905px) {
+    #services-container {
+      height: 74vh;
+    }
+  }
 }
 
 @media only screen and (min-width: 1275px) {
   @media only screen and (min-height: 715px) {
-    /* #services-p-border p {
+    #services-p-border p {
       font-size: 1.7rem;
-    } */
-
-    #services-p-border {
-      /* padding-bottom: 5px; */
-      /* margin-bottom: 85px; */
-    }
-
-    #health-care {
-      /* margin-bottom: -50px; */
-    }
-
-    #health-care img {
-      /* width: 120px; */
-    }
-
-    #health-care p {
-      /* right: -1px;
-      top: -80px;
-      font-size: 1.2rem; */
-    }
-
-    #steel-frame img {
-      /* width: 125px; */
-    }
-
-    #steel-frame p {
-      /* top: -85px; */
-    }
-
-    #drywall {
-      /* margin-top: -15px; */
-    }
-
-    #drywall img {
-      /* width: 160px; */
-    }
-
-    #insulation {
-      /* margin-right: 2px; */
-    }
-
-    #insulation img {
-      /* width: 160px; */
-    }
-
-    #exteriors {
-      /* margin-right: 50px;
-      margin-left: 8px;
-      margin-top: -210px; */
-    }
-
-    #exteriors img {
-      /* width: 160px; */
-    }
-
-    #demolition {
-      /* margin-left: 35px; */
-    }
-
-    #demolition img {
-      /* width: 160px; */
-    }
-
-    #improvement {
-      /* margin-left: -65px; */
-    }
-
-    #improvement img {
-      /* width: 200px; */
-    }
-
-    #shells {
-      /* margin-top: -135px; */
-    }
-
-    #shells img {
-      /* margin-top: 65px; */
-      /* width: 200px; */
-    }
-
-    #shells p {
-      /* top: -105px; */
-      /* width: 200px; */
-    }
-
-    #relocation {
-      /* margin-left: -110px; */
-    }
-
-    #relocation img {
-      /* width: 160px; */
     }
   }
 }
