@@ -1,5 +1,5 @@
 import React from "react";
-import "./MobileNav.css";
+import "./style.css";
 
 const MobileNav = ({ handleMobileNav }) => {
   return (

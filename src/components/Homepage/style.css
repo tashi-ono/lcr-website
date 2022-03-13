@@ -119,41 +119,42 @@
   }
 }
 
-@media only screen and (min-width: 735px) and (min-height: 355px) {
-  .animated > h3 {
-    font-size: 3.5rem;
-  }
+@media only screen and (min-width: 735px) {
+  @media only screen and (min-height: 355px) {
+    .animated > h3 {
+      font-size: 3.5rem;
+    }
 
-  #homepage-pic {
-    position: absolute;
-    bottom: -220px;
-    right: 10px;
-    max-width: 400px;
-    max-height: 250px;
-  }
+    #homepage-pic {
+      position: absolute;
+      bottom: -220px;
+      right: 10px;
+      max-width: 400px;
+      max-height: 250px;
+    }
 
-  #background-container {
-    background-image: url("https://res.cloudinary.com/tca7lsohuid8/image/upload/v1635617249/lcr_website/Bank_he0sgm.png");
-    background-position: center 5px;
-    background-size: 140%;
-  }
+    #background-container {
+      background-image: url("https://res.cloudinary.com/tca7lsohuid8/image/upload/v1635617249/lcr_website/Bank_he0sgm.png");
+      background-position: center 5px;
+      background-size: 140%;
+    }
 
-  h3#strategy {
-    padding-top: 40px;
-  }
+    h3#strategy {
+      padding-top: 40px;
+    }
 
-  #marin-badge {
-    left: 125px;
-    bottom: -170px;
-    width: 175px;
-  }
+    #marin-badge {
+      left: 125px;
+      bottom: -170px;
+      width: 175px;
+    }
 
-  #nc-badge {
-    left: 154px;
-    bottom: -300px;
-    width: 120px;
+    #nc-badge {
+      left: 154px;
+      bottom: -300px;
+      width: 120px;
+    }
   }
-
   @media only screen and (min-height: 410px) {
     #background-container {
       background-size: 148%;
@@ -174,7 +175,10 @@
       top: 440px;
     }
 
-    @media only screen and (min-height: 765px) {
+    @media only screen and (min-height: 735px) {
+      #homepage-pic {
+        top: 200px;
+      }
     }
   }
   @media only screen and (min-height: 1020px) {
@@ -319,14 +323,14 @@
     }
   }
 
-  @media only screen and (min-height: 760px) {
+  @media only screen and (min-height: 730px) {
     #homepage-pic {
       max-width: 600px;
       top: 375px;
     }
 
     #background-container {
-      background-size: 153%;
+      background-size: 145%;
     }
 
     .animated > h3 {
@@ -398,7 +402,12 @@
 }
 
 @media only screen and (min-width: 1275px) {
-  @media only screen and (min-height: 640px) {
+  @media only screen and (min-height: 625px) {
+    #background-container {
+      background-position: center;
+      background-size: 110%;
+    }
+
     .animated > h3 {
       font-size: 4.5rem;
       line-height: 1.8;
@@ -551,7 +560,7 @@
 
 @media only screen and (min-width: 1910px) {
   #background-container {
-    background-size: 111%;
+    background-size: 100%;
     background-position: center -189px;
   }
 

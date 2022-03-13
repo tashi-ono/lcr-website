@@ -1,13 +1,13 @@
 import React from "react";
 import { GoogleMap, LoadScript } from "@react-google-maps/api";
 import MapMarker from "../MapMarker/MapMarker";
-import "./Map.css";
+import "./style.css";
 
 const containerStyle = {
   border: "30px solid #f1793d",
   borderRadius: "15px",
-  height: "60vh",
-  width: "40vw",
+  height: "100%",
+  width: "100%",
 };
 
 const center = {

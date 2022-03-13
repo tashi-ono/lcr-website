@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { InfoWindow, Marker } from "@react-google-maps/api";
-import "./MapMarker.css";
+import "./style.css";
 
 const MapMarker = ({ location }) => {
   const [openInfoWindow, setOpenInfoWindow] = useState(true);

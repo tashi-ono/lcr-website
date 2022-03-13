@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./PageTitle.css";
+import "./style.css";
 
 const PageTitle = (props) => {
   const divStyle = {

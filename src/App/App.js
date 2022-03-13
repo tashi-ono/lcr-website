@@ -1,15 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import About from "./components/About/About";
-import Careers from "./components/Careers/Careers";
-import Contact from "./components/Contact/Contact";
-import Covid from "./components/Covid/Covid";
-import Footer from "./components/Footer/Footer";
-import Homepage from "./components/Homepage/Homepage";
-import Recycling from "./components/Recycling/Recycling";
-import Services from "./components/Services/Services";
+import About from "../components/About/About";
+import Careers from "../components/Careers/Careers";
+import Contact from "../components/Contact/Contact";
+import Covid from "../components/Covid/Covid";
+import Footer from "../components/Footer/Footer";
+import Homepage from "../components/Homepage/Homepage";
+import Recycling from "../components/Recycling/Recycling";
+import Services from "../components/Services/Services";
 import "semantic-ui-css/semantic.min.css";
-import "./App.css";
+import "./style.css";
 
 const App = () => {
   return (

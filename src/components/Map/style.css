@@ -1,0 +1,36 @@
+.map-border {
+  border: 10px solid #a92c2d;
+  border-radius: 25px;
+  box-shadow: -16px 10px 0px 0px #a92c2d;
+  display: inline-block;
+  height: 60vh;
+  margin: 25px auto;
+  width: 100vw;
+}
+
+@media only screen and (min-width: 760px) {
+  .map-border {
+    width: 80vw;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .map-border {
+    height: 80vh;
+    width: 50vw;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .map-border {
+    height: 80vh;
+    width: 50vw;
+  }
+}
+
+@media only screen and (min-width: 1850px) {
+  .map-border {
+    height: 60vh;
+    width: 40vw;
+  }
+}

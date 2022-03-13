@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../Header/Header";
 import PageTitle from "../PageTitle/PageTitle";
-import "./Careers.css";
+import "./style.css";
 
 const Careers = () => {
   return (

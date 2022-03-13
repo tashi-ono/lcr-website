@@ -5,7 +5,7 @@ import { Form, Input, TextArea, Button } from "semantic-ui-react";
 import Header from "../Header/Header";
 import Map from "../Map/Map";
 import PageTitle from "../PageTitle/PageTitle";
-import "./Contact.css";
+import "./style.css";
 
 const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
 const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;

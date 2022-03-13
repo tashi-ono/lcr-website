@@ -1,0 +1,137 @@
+#covid-page {
+  background-color: #fff7d9;
+  height: auto;
+}
+
+#covid-page p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  padding-top: 50px;
+  text-align: center;
+}
+
+#covid-imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+}
+
+#covid-links {
+  align-items: center;
+  display: flex;
+  gap: 3vw;
+  justify-content: center;
+  text-align: center;
+}
+
+#covid-links a {
+  color: #9e0b0f;
+  font-size: 1.15rem;
+  font-weight: bold;
+  margin: 50px 0;
+  padding-right: 5px;
+}
+
+#covid-imgs img {
+  width: 40vw;
+}
+
+#construction {
+  grid-area: 1/1/2/2;
+}
+
+#electrical {
+  grid-area: 1/2/2/3;
+}
+
+#lumber {
+  grid-area: 3/1/4/2;
+}
+
+#metal {
+  grid-area: 3/2/4/3;
+}
+
+#distancing {
+  grid-area: 2/1/3/3;
+  margin: -50px 0 -100px;
+}
+
+@media only screen and (min-width: 765px) {
+  #covid-page p {
+    font-size: 1.2rem;
+  }
+
+  #covid-links a {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 1px rgb(177, 173, 173);
+  }
+
+  #covid-links a:hover {
+    text-shadow: 3px 4px 5px grey;
+    transition: ease-in 100ms;
+  }
+
+  #covid-imgs > img {
+    width: 35vw;
+  }
+
+  #construction {
+    margin-bottom: -50px;
+  }
+
+  #electrical {
+    margin-bottom: -50px;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  #covid-imgs > img {
+    width: 25vw;
+  }
+
+  #construction {
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+
+  #electrical {
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+
+  #lumber {
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+
+  #metal {
+    margin-left: 50px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 1915px) {
+  #covid-imgs > img {
+    width: 20vw;
+  }
+
+  #construction {
+    margin-right: 50px;
+    margin-top: 50px;
+  }
+
+  #electrical {
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+
+  #lumber {
+    margin-right: 50px;
+  }
+
+  #metal {
+    margin-left: 50px;
+  }
+}
