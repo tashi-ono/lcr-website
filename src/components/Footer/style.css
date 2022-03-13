@@ -10,7 +10,7 @@
   padding: 5px 0;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 765px) {
   .footer {
     background-color: #6c7d8c;
   }
@@ -18,23 +18,15 @@
   .footer p {
     padding: 9px 0;
   }
-}
 
-@media only screen and (min-width: 767px) and (min-height: 1020px) {
-  .footer {
-    bottom: 0;
-    position: absolute;
-    width: 100%;
-  }
-}
-
-/* @media only screen and (min-width: 1020px) {
-  @media only screen and (min-height: 765px) {
+  @media only screen and (min-height: 1020px) {
     .footer {
-      margin-bottom: 0;
+      bottom: 0;
+      position: absolute;
+      width: 100%;
     }
   }
-} */
+}
 
 @media only screen and (min-width: 1275px) {
   .footer p {
