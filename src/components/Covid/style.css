@@ -87,6 +87,14 @@
 }
 
 @media only screen and (min-width: 1020px) {
+  #covid-page p {
+    font-size: 1.5rem;
+  }
+
+  #covid-links a {
+    font-size: 1.7rem;
+  }
+
   #covid-imgs > img {
     width: 25vw;
   }
@@ -114,11 +122,15 @@
 
 @media only screen and (min-width: 1915px) {
   #covid-page p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
   #covid-imgs > img {
-    width: 20vw;
+    width: 18vw;
+  }
+
+  #covid-links a {
+    font-size: 1.7rem;
   }
 
   #construction {

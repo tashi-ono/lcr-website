@@ -4,7 +4,7 @@ import MapMarker from "../MapMarker/MapMarker";
 import "./style.css";
 
 const containerStyle = {
-  border: "30px solid #f1793d",
+  border: "25px solid #f1793d",
   borderRadius: "15px",
   height: "100%",
   width: "100%",

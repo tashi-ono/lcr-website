@@ -1,11 +1,20 @@
 .map-border {
-  border: 10px solid #a92c2d;
-  border-radius: 25px;
-  box-shadow: -16px 10px 0px 0px #a92c2d;
-  display: inline-block;
   height: 60vh;
   margin: 25px auto;
   width: 100vw;
+}
+
+.map-border {
+  border: none;
+  box-shadow: none;
+}
+
+@media only screen and (min-width: 420px) {
+  .map-border {
+    border: 10px solid #a92c2d;
+    border-radius: 25px;
+    box-shadow: -16px 10px 0px 0px #a92c2d;
+  }
 }
 
 @media only screen and (min-width: 760px) {
