@@ -267,7 +267,7 @@
       top: unset;
       width: 20vw;
     }
-  
+
     .leased #nc-badge {
       bottom: 20px;
       top: unset;
@@ -299,7 +299,7 @@
       top: unset;
       width: 30vw;
     }
-  
+
     .leased #nc-badge {
       bottom: 50px;
       right: 50vw;
@@ -353,5 +353,74 @@
       left: 25%;
       right: 25%;
     }
+  }
+}
+
+@media only screen and (min-width: 1275px) {
+  #about-page {
+    height: 100%;
+  }
+
+  .about-title {
+    bottom: unset;
+    top: 250px;
+    left: 27%;
+  }
+
+  .about-title p {
+    font-size: 3rem;
+  }
+
+  .leased {
+    transform: translate(25vw, -67px);
+    width: 50%;
+  }
+
+  #building {
+    height: 88%;
+    transform: unset;
+    width: 100%;
+  }
+
+  #about-p1 {
+    border-radius: 15px;
+    top: unset;
+    bottom: 225px;
+    left: 49%;
+    right: 18%;
+  }
+
+  #about-p2 {
+    border-radius: 20px;
+    bottom: 50px;
+    left: 49%;
+    right: 18%;
+  }
+
+  #office-manager {
+    position: absolute;
+    top: -80px;
+    width: 20vw;
+  }
+
+  #work-force {
+    position: absolute;
+    left: 250px;
+    top: -30px;
+    width: 35vw;
+  }
+
+  .leased #marin-badge {
+    left: unset;
+    top: 200px;
+    right: 10px;
+    width: 15vw;
+  }
+
+  .leased #nc-badge {
+    left: unset;
+    right: 30px;
+    width: 12vw;
+    top: 200px;
   }
 }
