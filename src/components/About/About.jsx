@@ -26,16 +26,14 @@ const About = () => {
           width="300px"
         />
       </div>
-      <div>
-        <p className="about-paragraph" id="about-p1">
-          SINCE 2008, WE HAVE SERVED THE GREATER BAY <br /> AREA AND ITS
-          SURROUNDING COMMUNITIES.
-        </p>
-        <p className="about-paragraph" id="about-p2">
-          WE SPECIALIZE IN COMMERCIAL REMODELING BOTH INTERIOR AND EXTERIOR,
-          RETAIL LOCATION, AND REGULATORY COMPLIANCE WITH LOCAL JURISDICTIONS.
-        </p>
-      </div>
+      <p className="about-paragraph" id="about-p1">
+        SINCE 2008, WE HAVE SERVED THE GREATER BAY AREA AND ITS SURROUNDING
+        COMMUNITIES.
+      </p>
+      <p className="about-paragraph" id="about-p2">
+        WE SPECIALIZE IN COMMERCIAL REMODELING BOTH INTERIOR AND EXTERIOR,
+        RETAIL LOCATION, AND REGULATORY COMPLIANCE WITH LOCAL JURISDICTIONS.
+      </p>
       <div className="leased">
         <img
           id="nc-badge"
