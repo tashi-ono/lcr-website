@@ -187,7 +187,6 @@
   }
 
   .about-title {
-    /* line-height: 0.8; */
     bottom: 260px;
   }
 
@@ -204,7 +203,6 @@
   }
 
   #building {
-    /* width: 100%; */
     transform: translateY(50px);
   }
 
@@ -217,5 +215,143 @@
   }
 }
 
-@media only screen and (min-width: 765px) {
+@media only screen and (min-width: 730px) {
+  #about-p1 {
+    bottom: unset;
+    left: 20%;
+    right: 20%;
+    top: 225px;
+  }
+
+  #work-force {
+    width: 60vw;
+  }
+
+  #building {
+    transform: translateY(130px);
+    width: 100%;
+  }
+
+  .leased {
+    height: 550px;
+  }
+
+  #about-p2 {
+    left: 15%;
+    right: 15%;
+  }
+
+  .leased #marin-badge {
+    bottom: unset;
+    right: 20vw;
+    top: 460px;
+    width: 28vw;
+  }
+
+  .leased #nc-badge {
+    bottom: unset;
+    right: 50vw;
+    top: 310px;
+    width: 16vw;
+  }
+}
+
+@media only screen and (min-width: 790px) {
+  @media only screen and (min-height: 1075px) {
+    .leased {
+      height: 600px;
+    }
+
+    .leased #marin-badge {
+      bottom: 30px;
+      top: unset;
+      width: 20vw;
+    }
+  
+    .leased #nc-badge {
+      bottom: 20px;
+      top: unset;
+      width: 15vw;
+    }
+  }
+
+  @media only screen and (min-height: 1275px) {
+    .leased {
+      height: 800px;
+    }
+
+    #building {
+      transform: translateY(130px);
+      width: 125%;
+    }
+
+    .about-title {
+      bottom: 400px;
+    }
+
+    #about-p2 {
+      bottom: 230px;
+    }
+
+    .leased #marin-badge {
+      bottom: 50px;
+      right: 20vw;
+      top: unset;
+      width: 30vw;
+    }
+  
+    .leased #nc-badge {
+      bottom: 50px;
+      right: 50vw;
+      top: unset;
+      width: 20vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 840px) {
+  #about-p1 {
+    left: 25%;
+    right: 25%;
+  }
+
+  #building {
+    transform: translateY(170px);
+  }
+
+  #about-p2 {
+    left: 20%;
+    right: 20%;
+  }
+}
+
+@media only screen and (min-width: 895px) {
+  #building {
+    height: 500px;
+    transform: translateY(120px);
+    width: 100%;
+  }
+
+  .leased #marin-badge {
+    top: 460px;
+    width: 20vw;
+  }
+
+  .leased #nc-badge {
+    top: 310px;
+    width: 13vw;
+  }
+}
+
+@media only screen and (min-width: 905px) {
+  @media only screen and (min-height: 1075px) {
+    .leased {
+      height: 550px;
+    }
+
+    #about-p2 {
+      left: 25%;
+      right: 25%;
+    }
+  }
 }
