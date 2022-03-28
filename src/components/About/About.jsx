@@ -45,12 +45,12 @@ const About = () => {
           src="https://res.cloudinary.com/tca7lsohuid8/image/upload/v1642563081/lcr_website/Marin_Builders_Badge_k83d3s.png"
           alt="Marin Builders Badge"
         />
-        <img
+        {/* <img
           id="building"
           src="https://res.cloudinary.com/tca7lsohuid8/image/upload/v1642306845/lcr_website/Leased_wfvpo6.png"
           alt="leased building"
           width="300px"
-        />
+        /> */}
       </div>
     </div>
   );

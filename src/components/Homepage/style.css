@@ -457,6 +457,19 @@
   }
 }
 
+@media only screen and (min-width: 1275px) {
+  @media only screen and (min-height: 715px) {
+    #background-container {
+      background-size: 125%;
+    }
+  }
+  @media only screen and (min-height: 1020px) {
+    #background-container {
+      background-size: 130%;
+    }
+  }
+}
+
 @media only screen and (min-width: 1435px) {
   @media only screen and (min-height: 860px) {
     #homepage-pic {
@@ -488,7 +501,7 @@
 
     #background-container {
       background-position: center -100px;
-      background-size: 101%;
+      background-size: 105%;
       height: 78vh;
     }
 
@@ -536,6 +549,7 @@
       left: 950px;
       top: 350px;
     }
+
     .animated > h3 {
       font-size: 6rem;
     }
@@ -586,7 +600,17 @@
     width: 225px;
   }
 
+  @media only screen and (min-height: 970px) {
+    #background-container {
+      height: 78.7vh;
+    }
+  }
+
   @media only screen and (min-height: 1075px) {
+    #background-container {
+      background-size: 110%;
+    }
+
     #marin-badge {
       left: 450px;
       top: 250px;

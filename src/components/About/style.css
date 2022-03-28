@@ -1,5 +1,6 @@
 #about-page {
   background-color: #e7e7e7;
+  overflow-x: hidden;
   position: relative;
 }
 
@@ -59,19 +60,15 @@
 }
 
 .leased {
+  background-image: url("https://res.cloudinary.com/tca7lsohuid8/image/upload/v1642306845/lcr_website/Leased_wfvpo6.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 145%;
   bottom: 0;
   height: 600px;
   width: 100%;
   overflow: hidden;
   position: relative;
-}
-
-#building {
-  bottom: 0;
-  transform: translateY(80px);
-  width: 180%;
-  overflow: hidden;
-  position: absolute;
 }
 
 .leased #marin-badge,
@@ -125,57 +122,30 @@
     bottom: 265px;
   }
 
-  #building {
-    transform: translateY(100px);
+  .leased {
+    background-size: 140%;
   }
 }
 
 @media only screen and (min-width: 410px) {
-  #about-p1 {
-    bottom: 610px;
-  }
-
-  .about-title {
-    bottom: 260px;
-  }
-
-  #building {
-    transform: translateY(145px);
+  .leased {
+    background-size: 130%;
   }
 }
 
 @media only screen and (min-width: 475px) {
+  #about-p1 {
+    bottom: 625px;
+    right: 3%;
+    left: 3%;
+  }
+
   #work-force {
     width: 65vw;
   }
 
-  #about-p1 {
-    bottom: 625px;
-    right: 10%;
-    left: 10%;
-  }
-
-  .about-title {
-    bottom: 250px;
-  }
-
-  #about-p2 {
-    right: 2%;
-    left: 2%;
-  }
-
-  #building {
-    width: 110%;
-    transform: translateY(10px);
-  }
-
-  .leased #marin-badge {
-    width: 40vw;
-  }
-
-  .leased #nc-badge {
-    left: 15%;
-    width: 25vw;
+  .leased {
+    background-size: 112%;
   }
 }
 
@@ -186,8 +156,8 @@
     right: 15%;
   }
 
-  .about-title {
-    bottom: 260px;
+  #work-force {
+    width: 64vw;
   }
 
   #about-p2 {
@@ -202,20 +172,24 @@
     margin-left: 10px;
   }
 
-  #building {
-    transform: translateY(50px);
+  .leased {
+    background-size: 100%;
+    background-position-y: 225px;
   }
 
   .leased #marin-badge {
-    bottom: -10px;
+    bottom: 0px;
+    width: 30vw;
   }
 
   .leased #nc-badge {
-    bottom: -10px;
+    bottom: 0px;
+    left: 20%;
+    width: 20vw;
   }
 }
 
-@media only screen and (min-width: 730px) {
+@media only screen and (min-width: 715px) {
   #about-p1 {
     bottom: unset;
     left: 20%;
@@ -227,15 +201,6 @@
     width: 60vw;
   }
 
-  #building {
-    transform: translateY(130px);
-    width: 100%;
-  }
-
-  .leased {
-    height: 550px;
-  }
-
   #about-p2 {
     left: 15%;
     right: 15%;
@@ -244,127 +209,177 @@
   .leased #marin-badge {
     bottom: unset;
     right: 20vw;
-    top: 460px;
+    top: 490px;
     width: 28vw;
   }
 
   .leased #nc-badge {
     bottom: unset;
     right: 50vw;
-    top: 310px;
-    width: 16vw;
+    top: 350px;
+    width: 18vw;
   }
-}
+  @media only screen and (min-height: 1275px) {
 
-@media only screen and (min-width: 790px) {
-  @media only screen and (min-height: 1075px) {
     .leased {
-      height: 600px;
+      background-position-y: 330px;
+      height: 805px;
+    }
+
+    #about-p1 {
+     top: 250px;
+    }
+
+    .worker-imgs {
+      top: 200px;
+    }
+
+    .about-title {
+      bottom: 360px;
+    }
+
+    #about-p2 {
+      bottom: 175px;
+      left: 18%;
+      right: 18%;
     }
 
     .leased #marin-badge {
-      bottom: 30px;
+      top: 675px;
+    }
+  
+    .leased #nc-badge {
+      top: 530px;
+    }
+  }
+}
+
+@media only screen and (min-width: 765px) {
+  .leased {
+    background-position-y: 170px;
+    height: 550px;
+  }
+
+  .leased #marin-badge {
+    top: 445px;
+  }
+
+  .leased #nc-badge {
+    top: 300px;
+  }
+}
+
+@media only screen and (min-width: 795px) {
+  @media only screen and (min-height: 1075px) {
+    .leased {
+      background-position-y: 200px;
+      height: 590px;
+    }
+
+    .leased #marin-badge {
+      bottom: 10px;
       top: unset;
-      width: 20vw;
     }
 
     .leased #nc-badge {
-      bottom: 20px;
+      bottom: 15px;
       top: unset;
-      width: 15vw;
+      width: 17vw;
     }
   }
-
   @media only screen and (min-height: 1275px) {
     .leased {
+      background-position: bottom;
       height: 800px;
-    }
-
-    #building {
-      transform: translateY(130px);
-      width: 125%;
     }
 
     .about-title {
       bottom: 400px;
     }
 
+    .about-title p {
+      font-size: 2.5rem;
+    }
+
     #about-p2 {
-      bottom: 230px;
+      bottom: 200px;
+      left: 18%;
+      right: 18%;
     }
 
     .leased #marin-badge {
-      bottom: 50px;
-      right: 20vw;
-      top: unset;
-      width: 30vw;
+      bottom: 30px;
     }
 
     .leased #nc-badge {
-      bottom: 50px;
-      right: 50vw;
-      top: unset;
-      width: 20vw;
+      bottom: 40px;
     }
   }
 }
 
-@media only screen and (min-width: 840px) {
-  #about-p1 {
-    left: 25%;
-    right: 25%;
-  }
-
-  #building {
-    transform: translateY(170px);
-  }
-
+@media only screen and (min-width: 810px) {
   #about-p2 {
     left: 20%;
     right: 20%;
   }
-}
-
-@media only screen and (min-width: 895px) {
-  #building {
-    height: 500px;
-    transform: translateY(120px);
-    width: 100%;
-  }
 
   .leased #marin-badge {
-    top: 460px;
-    width: 20vw;
+    width: 25vw;
   }
 
   .leased #nc-badge {
-    top: 310px;
-    width: 13vw;
+    width: 15vw;
   }
 }
 
 @media only screen and (min-width: 905px) {
   @media only screen and (min-height: 1075px) {
+    #about-p1 {
+      left: 22%;
+      right: 22%;
+    }
+
+    #office-manager {
+      margin-left: 100px;
+      width: 35vw;
+    }
+
+
+    #work-force {
+      width: 50vw;
+    }
+
     .leased {
-      height: 550px;
+      background-position-y: 175px;
+      height: 625px;
+    }
+
+    .about-title {
+      bottom: 315px;
+      padding-left: 30px;
     }
 
     #about-p2 {
+      bottom: 150px;
       left: 25%;
       right: 25%;
+    }
+
+    .leased #marin-badge {
+      bottom: 10px;
+    }
+
+    .leased #nc-badge {
+      bottom: 15px;
     }
   }
 }
 
-@media only screen and (min-width: 1275px) {
-  #about-page {
-    height: 100%;
-  }
 
+@media only screen and (min-width: 960px) {
   .about-title {
-    bottom: unset;
     top: 250px;
-    left: 27%;
+    left: 23%;
   }
 
   .about-title p {
@@ -372,55 +387,275 @@
   }
 
   .leased {
-    transform: translate(25vw, -67px);
-    width: 50%;
-  }
-
-  #building {
-    height: 88%;
-    transform: unset;
-    width: 100%;
+    background-position: bottom 0px right 100px;
+    transform: translateX(50vw);
   }
 
   #about-p1 {
-    border-radius: 15px;
+    border-radius: 30px;
     top: unset;
-    bottom: 225px;
-    left: 49%;
+    bottom: 210px;
+    left: 48%;
     right: 18%;
   }
 
   #about-p2 {
-    border-radius: 20px;
+    border-radius: 30px;
     bottom: 50px;
-    left: 49%;
+    left: 48%;
     right: 18%;
   }
 
   #office-manager {
     position: absolute;
-    top: -80px;
+    top: -10px;
     width: 20vw;
   }
 
   #work-force {
     position: absolute;
-    left: 250px;
-    top: -30px;
+    left: 200px;
+    top: 10px;
     width: 35vw;
   }
 
   .leased #marin-badge {
-    left: unset;
-    top: 200px;
-    right: 10px;
+    bottom: 225px;
+    left: 340px;
+    right: unset;
+    top: unset;
     width: 15vw;
   }
 
   .leased #nc-badge {
-    left: unset;
-    right: 30px;
+    bottom: 65px;
+    left: 355px;
+    padding-top: unset;
+    right: unset;
+    top: unset;
     width: 12vw;
-    top: 200px;
+  }
+
+  @media only screen and (min-height: 600px) {
+    .leased #marin-badge {
+      left: 325px;
+    }
+  
+    .leased #nc-badge {
+      left: 340px;
+    }
+  }
+
+  @media only screen and (min-height: 805px) {
+    .leased {
+      height: 570px;
+    }
+
+    .leased #marin-badge {
+      left: 350px;
+    }
+  
+    .leased #nc-badge {
+      left: 365px;
+    }
+  }
+
+  @media only screen and (min-height: 905px) {
+    .leased {
+      height: 675px;
+    }
+
+    .leased #marin-badge {
+      bottom: 320px;
+      left: 325px;
+      width: 20vw;
+    }
+  
+    .leased #nc-badge {
+      bottom: 120px;
+      left: 360px;
+      width: 14vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 1275px) {
+  @media only screen and (min-height: 650px) {
+    .about-title {
+      bottom: unset;
+      left: 27%;
+      top: 275px;
+    }
+
+    #office-manager {
+      top: -40px;
+    }
+
+    #work-force {
+      position: absolute;
+      left: 225px;
+      top: 20px;
+      width: 35vw;
+    }
+
+    #about-p1 {
+      left: 48%;
+      right: 20%;
+    }
+  
+    #about-p2 {
+      left: 48%;
+      right: 20%;
+    }
+
+    .leased {
+      background-position: bottom -120px right 150px;
+    }
+
+    .leased #marin-badge {
+      bottom: 320px;
+      left: 365px;
+      width: 20vw;
+    }
+  
+    .leased #nc-badge {
+      bottom: 120px;
+      left: 410px;
+      width: 14vw;
+    }
+  }
+
+  @media only screen and (min-height: 860px) {
+    .leased {
+      height: 655px;
+    }
+
+    #about-p1 {
+      left: 48%;
+      right: 25%;
+    }
+  
+    #about-p2 {
+      left: 48%;
+      right: 25%;
+    }
+  }
+
+  @media only screen and (min-height: 1040px) {
+    .leased {
+      height: 800px;
+    }
+
+    .leased #marin-badge {
+      left: 465px;
+    }
+  
+    .leased #nc-badge {
+      bottom: 80px;
+      left: 510px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1675px) {
+  @media only screen and (min-height: 910px) {
+    .about-title {
+      top: 300px;
+    }
+
+    .about-title p {
+      font-size: 4rem;
+    }
+
+
+    .leased {
+      height: 825px;
+    }
+
+    #office-manager {
+      top: 30px;
+    }
+  
+    #work-force {
+      left: 295px;
+      top: 140px;
+      width: 35vw;
+    }
+
+    #about-p1, #about-p2 {
+      font-size: 1.7rem;
+      padding: 30px;
+      right: 20%;
+    }
+
+    #about-p1 {
+      bottom: 360px;
+    }
+  
+    #about-p2 {
+      bottom: 100px;
+    }
+
+    .leased #marin-badge {
+      bottom: 450px;
+      left: 575px;
+      width: 15vw;
+    }
+  
+    .leased #nc-badge {
+      bottom: 175px;
+      left: 610px;
+      width: 11vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 1780px) {
+  @media only screen and (min-height: 1070px) {
+    .leased {
+      background-position: bottom -120px right 160px;
+      height: 850px;
+    }
+  }
+
+  @media only screen and (min-height: 1110px) {
+    .leased {
+      height: 875px;
+    }
+  }
+}
+
+@media only screen and (min-width: 2550px) {
+  .about-title {
+    top: 350px;
+  }
+
+  .about-title p {
+    font-size: 5rem;
+  }
+
+  #work-force {
+    left: 400px;
+    top: 185px;
+  }
+
+  .leased {
+    background-position: bottom -160px right 250px;
+    height: 1160px;
+  }
+
+  #about-p1, #about-p2 {
+    font-size: 2.1rem;
+    padding: 30px;
+    right: 21%;
+  }
+
+  .leased #marin-badge {
+    left: 780px;
+  }
+
+  .leased #nc-badge {
+    bottom: 150px;
+    left: 825px;
   }
 }
