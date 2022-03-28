@@ -1,4 +1,66 @@
 #recycling-page {
   background-color: #fff799;
-  height: 100%;
+  height: auto;
+  position: relative;
+}
+
+#background-pic-container {
+  background-image: url("https://res.cloudinary.com/tca7lsohuid8/image/upload/v1648439671/lcr_website/Recycling_Debris_Boxes_r2z86r.png");
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+  width: 100%;
+}
+
+#recycling-paragraph, #resource-links, #county-links {
+  background-color: #9CBB6A;
+  border: 5px solid #196537;
+  border-radius: 20px;
+  font-size: 1.143rem;
+  font-weight: bold;
+  padding: 5px;
+  position: absolute;
+  text-align: center;
+}
+
+#resource-links {
+  left: 5%;
+  right: 5%;
+  bottom: 525px;
+}
+
+#resource-links a {
+  display: flex;
+  flex-direction: row;
+  /* font-size: 1rem; */
+  /* padding: 10px; */
+}
+
+#recycling-paragraph {
+  bottom: 10%;
+  left: 28%;
+  right: 28%;
+}
+
+#earth-pic {
+  opacity: 0.8;
+  position: absolute;
+  bottom: 15%;
+  width: 100vw;
+
+}
+
+#recycle-icon {
+  position: absolute;
+  left: 1%;
+  right: 1%;
+  bottom: 17%;
+  width: 95vw;
+}
+
+#county-links {
+  left: 5%;
+  right: 5%;
+  bottom: 25px;
 }
