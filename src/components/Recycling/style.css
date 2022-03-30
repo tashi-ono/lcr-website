@@ -9,7 +9,7 @@
   background-position: 0 50%;
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 100vh;
+  height: 66vh;
   width: 100%;
 }
 
@@ -25,42 +25,355 @@
 }
 
 #resource-links {
+  bottom: 295px;
   left: 5%;
   right: 5%;
-  bottom: 525px;
+  z-index: 1;
 }
 
 #resource-links a {
+  color: black;
   display: flex;
-  flex-direction: row;
-  /* font-size: 1rem; */
-  /* padding: 10px; */
+  flex-direction: column;
+  text-shadow: 1px 1px 1px #196537;
 }
 
 #recycling-paragraph {
-  bottom: 10%;
-  left: 28%;
-  right: 28%;
+  bottom: 80px;
+  left: 5%;
+  right: 5%;
+  z-index: 1;
 }
 
 #earth-pic {
-  opacity: 0.8;
+  bottom: 60px;
+  left: 2%;
+  opacity: 1;
   position: absolute;
-  bottom: 15%;
-  width: 100vw;
-
+  right: 2%;
+  width: 95vw;
 }
 
 #recycle-icon {
-  position: absolute;
+  bottom: 40px;
   left: 1%;
+  opacity: 0.1;
+  position: absolute;
   right: 1%;
-  bottom: 17%;
   width: 95vw;
+  z-index: 2;
 }
 
 #county-links {
   left: 5%;
   right: 5%;
-  bottom: 25px;
+  bottom: 2%;
+  display: flex;
+  flex-direction: row;
+}
+
+#county-links a {
+  color: black;
+  text-shadow: 1px 1px 1px #196537;
+}
+
+@media only screen and (min-height: 660px) {
+  #background-pic-container {
+    height: 80vh;
+  }
+
+  #resource-links {
+    bottom: 400px;
+  }
+  
+
+  #recycling-paragraph {
+    bottom: 150px;
+  }
+  
+  #earth-pic {
+    bottom: 100px;
+  }
+  
+  #recycle-icon {
+    bottom: 80px;
+  }
+  
+  #county-links {
+    bottom: 50px;
+  }
+}
+
+@media only screen and (min-height: 770px) {
+  #resource-links {
+    bottom: 490px;
+  }
+
+  #recycling-paragraph {
+    bottom: 120px;
+    font-size: 1.5rem;
+    left: 15%;
+    right: 15%;
+  }
+
+  #recycling-paragraph p {
+    font-size: 1.3rem;
+  }
+
+  #earth-pic {
+    bottom: 130px;
+    opacity: 0.7;
+  }
+  
+  #recycle-icon {
+    bottom: 130px;
+    opacity: 0.13;
+  }
+}
+
+@media only screen and (min-width: 405px) {
+  @media only screen and (min-height: 725px) {
+    #resource-links {
+      bottom: 445px;
+      z-index: 2;
+    }
+
+    #recycling-paragraph {
+      left: 15%;
+      right: 15%;
+      z-index: 2;
+    }
+
+    #recycle-icon {
+      opacity: 0.5;
+ 
+    }
+  }
+
+  @media only screen and (min-height: 805px) {
+    #resource-links {
+      bottom: 500px;
+    }
+
+    #recycling-paragraph {
+      bottom: 135px;
+    }
+  }
+
+  @media only screen and (min-height: 885px) {
+    #resource-links {
+      bottom: 550px;
+    }
+
+    #recycling-paragraph {
+      bottom: 175px;
+    }
+  }
+
+  @media only screen and (min-height: 905px) {
+    #resource-links {
+      bottom: 575px;
+    }
+  
+    #recycling-paragraph {
+      bottom: 180px;
+    }
+  
+    #earth-pic {
+      bottom: 150px;
+    }
+    
+    #recycle-icon {
+      bottom: 150px;
+    }
+  }
+}
+
+@media only screen and (min-width: 470px) {
+  #resource-links {
+    bottom: 525px;
+  }
+
+  #recycling-paragraph {
+    bottom: 200px;
+  }
+}
+
+@media only screen and (min-width: 590px) {
+  @media only screen and (min-height: 350px) {
+    #resource-links {
+      bottom: 75px;
+      left: 5%;
+      right: 60%;
+    }
+
+    #earth-pic {
+      bottom: 10px;
+      width: 25%;
+    }
+
+    #recycle-icon {
+      bottom: 10px;
+      width: 25%;
+    }
+
+    #recycling-paragraph {
+      bottom: 15px;
+      left: 45%;
+      right: 1%;
+    }
+
+    #county-links {
+      right: 60%;
+    }
+  }
+  @media only screen and (min-height: 950px) {
+    #background-pic-container {
+      height: 81vh;
+    }
+
+    #resource-links {
+      bottom: 600px;
+      left: 15%;
+      right: 15%;
+    }
+
+    #recycling-paragraph {
+      bottom: 300px;
+      left: 15%;
+      right: 15%;
+    }
+
+    #earth-pic {
+      bottom: 140px;
+      width: 80%
+    }
+    
+    #recycle-icon {
+      bottom: 140px;
+      width: 80%
+    }
+
+    #county-links {
+      bottom: 75px;
+      left: 15%;
+      right: 15%;
+    }
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  @media only screen and (min-height: 1015px) {
+    #resource-links {
+      left: 10%;
+      right: 50%;
+    }
+  
+    #recycling-paragraph {
+      left: 25%;
+      right: 25%;
+    }
+  
+    #county-links {
+      bottom: 100px;
+      left: 55%;
+      right: 10%;
+      z-index: 2;
+    }
+  
+  }
+
+  @media only screen and (min-height: 1270px) {
+    #background-pic-container {
+      height: 83vh;
+    }
+  }
+}
+
+
+@media only screen and (min-width: 950px) {
+  #background-pic-container {
+    width: 45%;
+  }
+
+  #recycling-paragraph {
+    bottom: 50px;
+    left: 5%;
+    padding: 10px;
+    right: 70%;
+  }
+
+  #recycle-icon {
+    opacity: 1;
+    width: 38%;
+  }
+
+  #earth-pic {
+    bottom: 90px;
+    opacity: 0.8;
+    width: 20%;
+  }
+
+  #resource-links {
+    bottom: 200px;
+    left: 70%;
+    right: 2%;
+  }
+
+  #county-links {
+    left: 70%;
+    right: 2%;
+  }
+
+  @media only screen and (min-height: 590px) {
+    #background-pic-container {
+      height: 69vh;
+    }
+
+    #recycling-paragraph {
+      bottom: 60px;
+    }
+  
+    #recycle-icon {
+      bottom: 20px;
+    }
+  
+    #earth-pic {
+      bottom: 120px;
+    }
+  
+    #resource-links {
+      bottom: 200px;
+    }
+  
+    #county-links {
+      bottom: 80px;
+    }
+  }
+
+  @media only screen and (min-height: 1270px) {
+    #background-pic-container {
+      height: 82vh;
+    }
+
+    #recycling-paragraph {
+      bottom: 125px;
+    }
+  
+    #recycle-icon {
+      bottom: 325px;
+    }
+  
+    #earth-pic {
+      bottom: 420px;
+    }
+  
+    #resource-links {
+      bottom: 700px;
+    }
+  
+    #county-links {
+      bottom: 300px;
+    }
+  }
 }
