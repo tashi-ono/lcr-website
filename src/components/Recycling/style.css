@@ -262,7 +262,29 @@
   }
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 710px) {
+  @media only screen and (min-height: 420px) {
+    #resource-links {
+      bottom: 125px;
+    }
+
+    #recycling-paragraph {
+      bottom: 65px;
+    }
+
+    #recycle-icon {
+      bottom: 45px;
+    }
+  
+    #earth-pic {
+      bottom: 45px;
+    }
+
+    #county-links {
+      bottom: 50px;
+    }
+  }
+
   @media only screen and (min-height: 1015px) {
     #resource-links {
       left: 10%;
@@ -283,10 +305,52 @@
   
   }
 
+  @media only screen and (min-height: 1070px) {
+    #recycle-icon {
+      bottom: 100px;
+    }
+  
+    #earth-pic {
+      bottom: 100px;
+
+    }
+  }
+
   @media only screen and (min-height: 1270px) {
     #background-pic-container {
       height: 83vh;
     }
+
+    #recycling-paragraph {
+      bottom: 400px;
+    }
+  
+    #recycle-icon {
+      bottom: 200px;
+    }
+  
+    #earth-pic {
+      bottom: 215px;
+      opacity: 0.8;
+    }
+  
+    #resource-links {
+      bottom: 900px;
+      left: 20%;
+      right: 20%;
+    }
+  
+    #county-links {
+      bottom: 75px;
+      left: 25%;
+      right: 25%;
+    }
+  }
+  @media only screen and (min-height: 1355px) {
+    #background-pic-container {
+      height: 84vh;
+    }
+
   }
 }
 
@@ -351,6 +415,70 @@
     }
   }
 
+  @media only screen and (min-height: 800px) {
+    #background-pic-container {
+      height: 71vh;
+    }
+
+    #recycling-paragraph {
+      bottom: 110px;
+    }
+  
+    #recycle-icon {
+      bottom: 80px;
+    }
+  
+    #earth-pic {
+      bottom: 180px;
+    }
+  
+    #resource-links {
+      bottom: 325px;
+    }
+  
+    #county-links {
+      bottom: 150px;
+    }
+  }
+
+  @media only screen and (min-height: 900px) {
+    #background-pic-container {
+      background-image: url("https://res.cloudinary.com/tca7lsohuid8/image/upload/v1648439671/lcr_website/Recycling_Debris_Boxes_r2z86r.png");
+      background-position: 0 50%;
+      background-repeat: no-repeat;
+      height: 74vh;
+      width: 60%;
+    }
+
+    #recycling-paragraph {
+      bottom: 175px;
+      left: 2%;
+      right: 75%;
+    }
+
+    #recycle-icon {
+      bottom: 65px;
+      width: 50vw;
+    }
+  
+    #earth-pic {
+      bottom: 220px;
+    }
+  
+    #resource-links {
+      bottom: 425px;
+    }
+  
+    #county-links {
+      bottom: 175px;
+      left: 75%;
+      right: 2%;
+      z-index: 2;
+    }
+  
+
+  }
+
   @media only screen and (min-height: 1270px) {
     #background-pic-container {
       height: 82vh;
@@ -374,6 +502,245 @@
   
     #county-links {
       bottom: 300px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1015px) {
+  @media only screen and (min-height: 640px) {
+    #recycle-icon {
+      width: 33vw;
+    }
+
+    #recycling-paragraph {
+      left: 10%;
+    }
+  }
+
+  @media only screen and (min-height: 755px) {
+    #recycling-paragraph {
+      bottom: 100px;
+    }
+  
+    #recycle-icon {
+      bottom: 65px;
+    }
+  
+    #earth-pic {
+      bottom: 150px;
+    }
+  
+    #resource-links {
+      bottom: 275px;
+    }
+  
+    #county-links {
+      bottom: 150px;
+    }
+  }
+
+  @media only screen and (min-height: 910px) {
+    #recycling-paragraph {
+      left: 5%;
+    }
+
+    #recycle-icon {
+      bottom: 150px;
+    }
+  
+    #earth-pic {
+      bottom: 225px;
+    }
+
+    #resource-links {
+      bottom: 400px;
+    }
+  
+    #county-links {
+      bottom: 225px;
+      right: 5%;
+      left: 73%;
+    }
+  }
+
+  @media only screen and (min-height: 1015px) {
+    #background-pic-container {
+      height: 76vh;
+    }
+
+    #recycling-paragraph {
+      bottom: 150px;
+      left: 10%;
+    }
+
+  
+    #resource-links {
+      bottom: 500px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1355px) {
+  @media only screen and (min-height: 755px) {
+    #recycling-paragraph {
+      bottom: 75px;
+      left: 10%;
+    }
+
+    #recycling-paragraph p {
+      font-size: 1.4rem;
+    }
+
+    #recycle-icon {
+      bottom: 15px;
+    }
+  
+    #earth-pic {
+      bottom: 125px;
+    }
+  
+    #resource-links {
+      bottom: 300px;
+    }
+  
+    #county-links {
+      bottom: 125px;
+    }
+  }
+
+  @media only screen and (min-height: 890px) {
+    #recycling-paragraph {
+      bottom: 100px;
+    }
+
+    #recycle-icon {
+      bottom: 10px;
+      width: 42vw;
+    }
+
+    #earth-pic {
+      bottom: 175px;
+    }
+
+    #resource-links {
+      bottom: 400px;
+    }
+
+    #county-links {
+      bottom: 175px;
+      left: 75%;
+      right: 5%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1525px) {
+  @media only screen and (min-height: 855px) {
+    #background-pic-container {
+      height: 72vh;
+    }
+  }
+
+  @media only screen and (min-height: 890px) {
+    #background-pic-container {
+      height: 73vh;
+      width: 50%;
+    }
+
+    #recycling-paragraph {
+      bottom: 125px;
+      left: 13%;
+      right: 72%;
+    }
+
+    #recycle-icon {
+      width: 35vw;
+    }
+
+    #earth-pic {
+      bottom: 150px;
+    }
+
+    #county-links {
+      bottom: 175px;
+      left: 76%;
+      right: 7%;
+    }
+  }
+
+
+  @media only screen and (min-height: 1040px) {
+    #background-pic-container {
+      height: 75vh;
+    }
+
+
+    #recycling-paragraph {
+      bottom: 125px;
+      left: 15%;
+    }
+
+    #recycling-paragraph p, #resource-links, #county-links  {
+      font-size: 1.5rem;
+    }
+
+    #recycle-icon {
+      bottom: 65px;
+    }
+
+    #earth-pic {
+      bottom: 225px;
+    }
+
+    #resource-links {
+      bottom: 475px;
+      padding: 15px;
+    }
+
+    #county-links {
+      bottom: 200px;
+      left: 73%;
+      padding: 20px;
+      right: 5%;
+    }
+  }
+
+  @media only screen and (min-height: 1070px) {
+    #background-pic-container {
+      height: 77vh;
+    }
+
+    #recycling-paragraph {
+      bottom: 200px;
+    }
+  }
+}
+
+
+@media only screen and (min-width: 2550px) {
+  @media only screen and (min-height: 1430px) {
+    #background-pic-container {
+      height: 81vh;
+    }
+
+    #recycling-paragraph p, #resource-links, #county-links  {
+      font-size: 2rem;
+      padding: 20px;
+    }
+
+    #resource-links {
+      bottom: 600px;
+    }
+
+    #resource-links a {
+      line-height: 1.4;
+    }
+
+    #county-links {
+      bottom: 300px;
+      left: 73%;
+      right: 6%;
+      line-height: 1.4;
     }
   }
 }
