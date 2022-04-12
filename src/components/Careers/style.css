@@ -1,3 +1,94 @@
 #careers-page {
-  height: 100%;
+  position: relative;
+}
+
+#careers-montage {
+  width: 100%;
+  margin: 0;
+}
+
+#sunset-bldg {
+  width: 100%; 
+  margin-bottom: -10px;
+  margin-top: -10px;
+}
+
+#join-text {
+  bottom: 305px;
+  left: 2%;
+  position: absolute;
+  right: 2%;
+  width: 80%;
+}
+
+#join-text p {
+  color: white;
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#career-list {
+  background-color: #EAE7D8;
+  border: 12px solid black;
+  border-radius: 30px;
+  bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  padding: 10px 10px;
+  position: absolute;
+  width: 100%;
+}
+
+#career-list > p {
+  font-weight: bold;
+  font-size: 1.1rem;
+  line-height: 1;
+  margin: 0;
+  padding-left: 10px;
+}
+
+@media only screen and (min-width: 350px) {
+  @media only screen and (min-height: 770px) {
+    #sunset-bldg {
+      height: 36vh;
+    }
+
+    #join-text {
+      bottom: 375px;
+    }
+  } 
+
+  @media only screen and (min-height: 805px) {
+    #join-text {
+      bottom: 380px;
+    }
+  }
+}
+
+@media only screen and (min-width: 405px) {
+  @media only screen and (min-height: 885px) {
+    #join-text {
+      bottom: 460px;
+    }
+
+    #sunset-bldg {
+      height: 39vh;
+    }
+  }
+}
+
+@media only screen and (min-width: 470px) {
+  @media only screen and (min-height: 845px) {
+    #join-text {
+      bottom: 430px;
+      left: 10%;
+      right: 10%;
+    }
+
+    #career-list > p {
+      line-height: 1.1;
+    }
+  }
 }

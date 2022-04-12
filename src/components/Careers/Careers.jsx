@@ -8,21 +8,24 @@ const Careers = () => {
     <div id="careers-page">
       <Header />
       <PageTitle title="CAREERS" color="#542000" />
-      <h3>Join our team of qualified professionals and subcontractors</h3>
-      <ul>
-        <li>Carpenters</li>
-        <li>Office Management</li>
-        <li>Accountant</li>
-        <li>Bookkeeper</li>
-        <li>Competitive compensation</li>
-        <li>Capable and competent work force</li>
-        <li>Subcontractors</li>
-        <li>Licensed Plumbers</li>
-        <li>Licensed Electricians</li>
-        <li>HVAC</li>
-        <li>Drywall</li>
-        <li>Demolition</li>
-      </ul>
+      <img id="careers-montage" src="https://res.cloudinary.com/tca7lsohuid8/image/upload/v1649733420/lcr_website/Careers_Montage_ndkemk.png" alt="careers montage" />
+      <div id="join-text"><p>Join our team of qualified professionals and subcontractors</p></div>
+      <div id="career-list">
+        <p>Carpenters</p>
+        <p>Subcontractors</p>
+        <p>Office Management</p>
+        <p>Licensed Plumbers</p>
+        <p>Accountant</p>
+        <p>Licensed Electricians</p>
+        <p>Bookkeeper</p>
+        <p>HVAC</p>
+        <p>Drywall</p>
+        <p>Demolition</p>
+        <p>Competitive compensation</p>
+        <p>Capable and competent work force</p>
+      </div>
+      <img id="sunset-bldg" src="https://res.cloudinary.com/tca7lsohuid8/image/upload/v1649733440/lcr_website/sunset_bldg_zdgzug.png" alt="sunset building" />
+
     </div>
   );
 };
