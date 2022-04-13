@@ -2,19 +2,22 @@
   position: relative;
 }
 
+.careers-pics {
+  width: 100%;
+}
+
 #careers-montage {
   width: 100%;
-  margin: 0;
 }
 
 #sunset-bldg {
-  width: 100%; 
+  width: 100%;
   margin-bottom: -10px;
   margin-top: -10px;
 }
 
 #join-text {
-  bottom: 305px;
+  bottom: 300px;
   left: 2%;
   position: absolute;
   right: 2%;
@@ -29,10 +32,10 @@
 }
 
 #career-list {
-  background-color: #EAE7D8;
+  background-color: #eae7d8;
   border: 12px solid black;
   border-radius: 30px;
-  bottom: 50px;
+  bottom: 25px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
@@ -44,7 +47,7 @@
 #career-list > p {
   font-weight: bold;
   font-size: 1.1rem;
-  line-height: 1;
+  line-height: 1.1;
   margin: 0;
   padding-left: 10px;
 }
@@ -56,9 +59,9 @@
     }
 
     #join-text {
-      bottom: 375px;
+      bottom: 350px;
     }
-  } 
+  }
 
   @media only screen and (min-height: 805px) {
     #join-text {
@@ -68,13 +71,23 @@
 }
 
 @media only screen and (min-width: 405px) {
+  @media only screen and (min-height: 725px) {
+    #join-text {
+      bottom: 370px;
+    }
+  }
+
   @media only screen and (min-height: 885px) {
     #join-text {
-      bottom: 460px;
+      bottom: 440px;
     }
 
     #sunset-bldg {
-      height: 39vh;
+      height: 38vh;
+    }
+
+    #career-list {
+      bottom: 90px;
     }
   }
 }
@@ -87,8 +100,296 @@
       right: 10%;
     }
 
-    #career-list > p {
-      line-height: 1.1;
+    #career-list {
+      left: 1%;
+      right: 1%;
+      width: 95%;
     }
+
+    #career-list > p {
+      line-height: 1.2;
+    }
+  }
+}
+
+@media only screen and (min-width: 590px) {
+  @media only screen and (min-height: 350px) {
+    .careers-pics {
+      display: flex;
+      flex-direction: row;
+    }
+
+    #careers-montage {
+      width: 50%;
+    }
+
+    #sunset-bldg {
+      width: 50%;
+      z-index: -1;
+    }
+
+    #join-text {
+      bottom: 180px;
+      left: 1%;
+      right: 1%;
+    }
+
+    #join-text p {
+      font-size: 1.8rem;
+    }
+
+    #career-list {
+      border: 5px solid black;
+      border-radius: 20px;
+      box-shadow: 7px 15px black;
+      left: 1%;
+      right: 1%;
+      width: 82%;
+    }
+
+    #career-list p {
+      font-size: 1.143rem;
+    }
+  }
+
+  @media only screen and (min-height: 950px) {
+    .careers-pics {
+      flex-direction: column;
+    }
+
+    #careers-montage {
+      width: 100%;
+    }
+
+    #sunset-bldg {
+      width: 100%;
+    }
+
+    #join-text {
+      bottom: 525px;
+    }
+
+    #join-text p {
+      font-size: 3rem;
+    }
+
+    #career-list p {
+      font-size: 1.5rem;
+    }
+  }
+}
+@media only screen and (min-width: 725px) {
+  @media only screen and (min-height: 405px) {
+    #join-text {
+      bottom: 225px;
+    }
+
+    #career-list {
+      bottom: 50px;
+      width: 70%;
+    }
+  }
+}
+
+@media only screen and (min-width: 710px) {
+  @media only screen and (min-height: 350px) {
+    #join-text {
+      bottom: 250px;
+    }
+
+    #join-text p {
+      font-size: 1.9rem;
+    }
+
+    #career-list {
+      bottom: 70px;
+      width: 70%;
+    }
+  }
+
+  @media only screen and (min-height: 405px) {
+    #join-text {
+      bottom: 215px;
+    }
+  }
+
+  @media only screen and (min-height: 1015px) {
+    #careers-montage {
+      height: 65vh;
+      transform: translateY(-125px);
+    }
+
+    #sunset-bldg {
+      height: 50vh;
+      transform: translateY(-300px);
+    }
+
+    .careers-pics {
+      height: 80vh;
+      overflow: hidden;
+    }
+
+    #join-text {
+      bottom: 550px;
+    }
+
+    #join-text p {
+      font-size: 3.2rem;
+    }
+
+    #career-list {
+      bottom: 200px;
+    }
+
+    #career-list p {
+      font-size: 1.6rem;
+    }
+  }
+
+
+  @media only screen and (min-height: 1270px) {
+    .careers-pics {
+      height: 85vh;
+    }
+
+    #careers-montage {
+      height: 50vh;
+      transform: unset;
+    }
+
+    #sunset-bldg {
+      height: 80vh;
+      transform: translateY(-50px);
+    }
+
+    #join-text {
+      bottom: 650px;
+    }
+
+    #join-text p {
+      font-size: 4rem;
+    }
+
+    #career-list {
+      bottom: 275px;
+      width: 80%;
+    }
+
+    #career-list p {
+      font-size: 1.9rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 805px) {
+  @media only screen and (min-height: 405px) {
+    #join-text {
+      bottom: 275px;
+    }
+
+    #join-text p {
+      font-size: 2rem;
+    }
+
+    #career-list {
+      width: 70%;
+    }
+
+    #career-list p {
+      font-size: 1.4rem;
+    }
+  }
+
+  @media only screen and (min-height: 1070px) {
+    #join-text {
+      bottom: 525px;
+    }
+
+    #join-text p {
+      font-size: 4rem;
+    }
+
+    #career-list p {
+      font-size: 1.9rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  @media only screen and (min-height: 590px) {
+    #join-text {
+      bottom: 315px;
+    }
+
+    #join-text p {
+      font-size: 2.3rem;
+    }
+
+    #career-list {
+      bottom: 100px;
+      width: 70%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1015px) {
+  @media only screen and (min-height: 755px) {
+    #join-text p {
+      font-size: 2.7rem;
+    }
+
+    #careers-pics {
+      overflow: hidden;
+    }
+
+    #careers-montage {
+      height: 71vh;
+      transform: translateX(-120px);
+      width: unset;
+    }
+
+    #sunset-bldg {
+      height: 73vh;
+      transform: translateX(-175px);
+      width: unset;
+    }
+
+    #career-list {
+      padding-left: 40px;
+    }
+  }
+
+  @media only screen and (min-height: 1270px) {
+    .careers-pics {
+      height: 82vh;
+    }
+
+    #careers-montage {
+      transform: translate(0px, -350px);
+      width: 100%;
+    }
+
+    #sunset-bldg {
+      transform: translate(0px, -450px);
+      width: 100%;
+    }
+
+    #join-text {
+      bottom: 650px;
+    }
+
+    #join-text p {
+      font-size: 4.6rem;
+    }
+
+    #career-list {
+      bottom: 250px;
+
+    }
+  }
+}
+
+@media only screen and (min-width: 1070px) {
+  @media only screen and (min-height: 800px) {
   }
 }

@@ -8,7 +8,10 @@ const Careers = () => {
     <div id="careers-page">
       <Header />
       <PageTitle title="CAREERS" color="#542000" />
-      <img id="careers-montage" src="https://res.cloudinary.com/tca7lsohuid8/image/upload/v1649733420/lcr_website/Careers_Montage_ndkemk.png" alt="careers montage" />
+      <div className="careers-pics">
+        <img id="careers-montage" src="https://res.cloudinary.com/tca7lsohuid8/image/upload/v1649733420/lcr_website/Careers_Montage_ndkemk.png" alt="careers montage" />
+        <img id="sunset-bldg" src="https://res.cloudinary.com/tca7lsohuid8/image/upload/v1649733440/lcr_website/sunset_bldg_zdgzug.png" alt="sunset building" />
+      </div>
       <div id="join-text"><p>Join our team of qualified professionals and subcontractors</p></div>
       <div id="career-list">
         <p>Carpenters</p>
@@ -24,7 +27,6 @@ const Careers = () => {
         <p>Competitive compensation</p>
         <p>Capable and competent work force</p>
       </div>
-      <img id="sunset-bldg" src="https://res.cloudinary.com/tca7lsohuid8/image/upload/v1649733440/lcr_website/sunset_bldg_zdgzug.png" alt="sunset building" />
 
     </div>
   );
