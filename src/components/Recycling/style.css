@@ -737,6 +737,21 @@
   }
 }
 
+@media only screen and (min-width: 1910px) {
+  @media only screen and (min-height: 905px) {
+    #recycling-paragraph p, #resource-links, #county-links  {
+      font-size: 1.7rem;
+    }
+
+    #resource-links, #county-links {
+      line-height: 1.2;
+    }
+
+    #recycling-paragraph {
+      bottom: 70px;
+    }
+  }
+}
 
 @media only screen and (min-width: 2550px) {
   @media only screen and (min-height: 1430px) {
@@ -745,7 +760,6 @@
     }
 
     #recycling-paragraph p, #resource-links, #county-links  {
-      font-size: 2rem;
       padding: 20px;
     }
 
