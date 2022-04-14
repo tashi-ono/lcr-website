@@ -116,15 +116,18 @@
   @media only screen and (min-height: 350px) {
     .careers-pics {
       display: flex;
-      flex-direction: row;
+      flex-direction: row-reverse;
+      overflow: hidden;
     }
 
     #careers-montage {
+      transform: translateX(70px);
       width: 50%;
     }
 
     #sunset-bldg {
-      width: 50%;
+      transform: translateX(70px);
+      width: 65%;
       z-index: -1;
     }
 
@@ -158,10 +161,12 @@
     }
 
     #careers-montage {
+      transform: unset;
       width: 100%;
     }
 
     #sunset-bldg {
+      transform: unset;
       width: 100%;
     }
 
@@ -259,7 +264,7 @@
 
     #sunset-bldg {
       height: 80vh;
-      transform: translateY(-50px);
+      transform: translateY(-10px);
     }
 
     #join-text {
@@ -271,7 +276,7 @@
     }
 
     #career-list {
-      bottom: 275px;
+      bottom: 250px;
       width: 80%;
     }
 
@@ -334,27 +339,29 @@
 
 @media only screen and (min-width: 1015px) {
   @media only screen and (min-height: 755px) {
-    #join-text p {
-      font-size: 2.7rem;
+    #join-text {
+      bottom: 375px;
+      width: 100%;
     }
 
-    #careers-pics {
-      overflow: hidden;
+    #join-text p {
+      font-size: 2.8rem;
     }
 
     #careers-montage {
       height: 71vh;
-      transform: translateX(-120px);
+      transform: translateX(220px);
       width: unset;
     }
 
     #sunset-bldg {
       height: 73vh;
-      transform: translateX(-175px);
+      transform: translateX(475px);
       width: unset;
     }
 
     #career-list {
+      bottom: 175px;
       padding-left: 40px;
     }
   }
@@ -390,6 +397,261 @@
 }
 
 @media only screen and (min-width: 1070px) {
+  @media only screen and (min-height: 710px) {
+    #careers-montage {
+      transform: translateX(90px);
+    }
+
+    #sunset-bldg {
+      transform: translateX(160px);
+    } 
+    
+    #join-text {
+      bottom: 400px;
+    }
+
+    #join-text p {
+      font-size: 3.1rem;
+    }
+
+    #career-list {
+      bottom: 200px;
+      width: 60%;
+    }
+  }
+
   @media only screen and (min-height: 800px) {
+    #careers-montage {
+      transform: translateX(225px);
+    }
+
+    #sunset-bldg {
+      transform: translateX(275px);
+    } 
+  }
+
+  @media only screen and (min-height: 900px) {
+    .careers-pics {
+      height: 75vh;
+
+    }
+
+    #careers-montage {
+      height: 75vh;
+      transform: translateX(350px);
+    }
+
+    #sunset-bldg {
+      height: 77vh;
+      transform: translateX(475px);
+    }
+
+    #join-text {
+      bottom: 480px;
+      width: 100%;
+    }
+
+    #career-list {
+      bottom: 250px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1270px) {
+  @media only screen and (min-height: 650px) {
+    #join-text {
+      width: 100%;
+    }
+
+    #join-text p {
+      font-size: 3.5rem
+    }
+
+    #careers-montage {
+      transform: translateX(110px);
+    }
+
+    #sunset-bldg {
+      transform: translateX(125px);
+    }
+
+    #career-list {
+      width: 50%;
+    }
+  }
+
+  @media only screen and (min-height: 1015px) {
+    .careers-pics {
+      flex-direction: row-reverse;
+      height: 76vh;
+    }
+
+    #careers-montage {
+      height: 78vh;
+
+      transform: translateX(375px);
+    }
+
+    #sunset-bldg {
+      height: 78vh;
+      transform: translateX(450px);
+    }
+
+    #join-text {
+      bottom: 550px;
+    }
+
+    #career-list {
+      bottom: 275px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1525px) {
+  @media only screen and (min-height: 855px) {
+    .careers-pics {
+      flex-direction: row-reverse;
+      height: 74vh;
+    }
+
+    #join-text {
+      bottom: 480px;
+    }
+
+    #careers-montage {
+      height: 77vh;
+    }
+
+    #sunset-bldg {
+      height: 76vh;
+    }
+  }
+
+  @media only screen and (min-height: 1040px) {
+    .careers-pics {
+      height: 78vh;
+    }
+
+    #join-text {
+      bottom: 580px;
+    }
+
+    #careers-montage {
+      height: 77vh;
+      transform: translateX(200px);
+    }
+
+    #sunset-bldg {
+      height: 76vh;
+      transform: translateX(200px);
+    }
+
+    #career-list p {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 1780px) {
+  @media only screen and (min-height: 1110px) {
+    #join-text {
+      bottom: 650px;
+    }
+
+    #join-text p {
+      font-size: 4.3rem;
+    }
+
+    #sunset-bldg {
+      height: 78vh;
+    }
+
+    #career-list {
+      padding: 20px 70px 10px;
+      box-shadow: 17px 25px black;
+      width: 50%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1910px) {
+  @media only screen and (min-height: 905px) {
+    #join-text {
+      bottom: 550px;
+    }
+
+    .careers-pics {
+      height: 76vh;
+    }
+
+    #sunset-bldg {
+      height: 78vh;
+      transform: unset;
+    }
+
+    #careers-montage {
+      height: 80vh;
+      transform: unset;
+    }
+
+    #career-list {
+      border: 7px solid black;
+      box-shadow: 15px 23px black;
+      width: 50%;
+    }
+
+    #career-list p {
+      font-size: 1.9rem;
+    }
+  }
+
+  @media only screen and (min-height: 1070px) {
+    #sunset-bldg {
+      transform: translateX(200px);
+    }
+
+    #careers-montage {
+      transform: translateX(150px);
+    }
+  }
+}
+
+@media only screen and (min-width: 2550px) {
+  @media only screen and (min-height: 1430px) {
+    .careers-pics {
+      height: 81vh;
+    }
+
+    #sunset-bldg {
+      height: 82vh;
+      transform: translateX(200px);
+    }
+
+    #careers-montage {
+      height: 82vh;
+      transform: translateX(200px);
+    }
+
+    #join-text {
+      bottom: 850px;
+    }
+
+    #join-text p {
+      font-size: 6rem;
+    }
+
+    #career-list {
+      border: 15px solid black;
+      border-radius: 50px;
+      bottom: 350px;
+      box-shadow: 20px 30px black;
+      padding: 30px 100px;
+      width: 55%
+    }
+
+    #career-list p {
+      font-size: 3rem;
+    }
+
   }
 }
