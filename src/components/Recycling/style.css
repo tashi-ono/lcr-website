@@ -227,6 +227,7 @@
       right: 60%;
     }
   }
+
   @media only screen and (min-height: 950px) {
     #background-pic-container {
       height: 81vh;
@@ -258,6 +259,12 @@
       bottom: 75px;
       left: 15%;
       right: 15%;
+    }
+  }
+
+  @media only screen and (min-height: 1015px) {
+    #resource-links {
+      bottom: 650px;
     }
   }
 }
@@ -740,7 +747,7 @@
 @media only screen and (min-width: 1910px) {
   @media only screen and (min-height: 905px) {
     #recycling-paragraph p, #resource-links, #county-links  {
-      font-size: 1.7rem;
+      font-size: 1.8rem;
     }
 
     #resource-links, #county-links {
@@ -749,6 +756,21 @@
 
     #recycling-paragraph {
       bottom: 70px;
+    }
+
+    #recycle-icon {
+      bottom: 75px;
+      width: 30%;
+    }
+
+    #earth-pic {
+      bottom: 180px;
+    }
+
+    #county-links {
+      left: 70%;
+      padding: 20px;
+      right: 8%
     }
   }
 }
@@ -760,6 +782,7 @@
     }
 
     #recycling-paragraph p, #resource-links, #county-links  {
+      font-size: 2.8rem;
       padding: 20px;
     }
 
@@ -776,6 +799,15 @@
       left: 68%;
       right: 6%;
       line-height: 1.4;
+    }
+
+    #earth-pic {
+      bottom: 300px;
+    }
+
+
+    #recycle-icon {
+      bottom: 180px;
     }
   }
 }
