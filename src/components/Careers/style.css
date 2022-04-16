@@ -460,6 +460,7 @@
 @media only screen and (min-width: 1270px) {
   @media only screen and (min-height: 650px) {
     #join-text {
+      bottom: 350px;
       width: 100%;
     }
 
@@ -476,7 +477,18 @@
     }
 
     #career-list {
+      bottom: 150px;
       width: 50%;
+    }
+  }
+
+  @media only screen and (min-height: 790px) {
+    #join-text {
+      bottom: 400px;
+    }
+
+    #career-list {
+      bottom: 175px;
     }
   }
 
