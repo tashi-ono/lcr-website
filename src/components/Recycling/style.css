@@ -24,6 +24,11 @@
   text-align: center;
 }
 
+#resource-links a:hover, #county-links a:hover {
+  text-shadow: 3px 4px 4px rgb(28, 111, 27);
+  transition: ease-in 100ms;
+}
+
 #resource-links {
   bottom: 295px;
   left: 5%;
