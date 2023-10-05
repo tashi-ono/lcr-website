@@ -30,10 +30,10 @@ const MapMarker = ({ location }) => {
             zIndex={1}
           >
             <div className="info-box">
-              <h4>SAN FRANCISCO OFFICE</h4>
+              <h4>SONOMA COUNTY OFFICE</h4>
               <p>
-                2186 California Street, Ste. 8 <br />
-                San Francisco, CA 94115
+                1097 Jacobsen Ln. <br />
+                Petaluma, CA 94954
               </p>
               <p>415.596.6853</p>
             </div>
