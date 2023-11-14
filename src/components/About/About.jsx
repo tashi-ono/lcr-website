@@ -35,7 +35,7 @@ const About = () => {
         RETAIL LOCATION, AND REGULATORY COMPLIANCE WITH LOCAL JURISDICTIONS.
       </p>
       <div className="leased">
-        <img
+        {/* <img
           id="nc-badge"
           src="https://res.cloudinary.com/tca7lsohuid8/image/upload/v1642563087/lcr_website/North_Coast_Builders_Exchange_kicswb.png"
           alt="North Coast Builders Exchange Badge"
@@ -44,7 +44,7 @@ const About = () => {
           id="marin-badge"
           src="https://res.cloudinary.com/tca7lsohuid8/image/upload/v1642563081/lcr_website/Marin_Builders_Badge_k83d3s.png"
           alt="Marin Builders Badge"
-        />
+        /> */}
       </div>
     </div>
   );

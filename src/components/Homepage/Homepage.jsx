@@ -49,11 +49,11 @@ const Homepage = () => {
             animateOnce={true}
             offset={25}
           >
-            <img
+            {/* <img
               id="marin-badge"
               src="https://res.cloudinary.com/tca7lsohuid8/image/upload/v1642563081/lcr_website/Marin_Builders_Badge_k83d3s.png"
               alt="Marin Builders Badge"
-            />
+            /> */}
           </ScrollAnimation>
           <ScrollAnimation
             delay={1000}
@@ -62,11 +62,11 @@ const Homepage = () => {
             animateOnce={true}
             offset={25}
           >
-            <img
+            {/* <img
               id="nc-badge"
               src="https://res.cloudinary.com/tca7lsohuid8/image/upload/v1642563087/lcr_website/North_Coast_Builders_Exchange_kicswb.png"
               alt="North Coast Builders Exchange Badge"
-            />
+            /> */}
           </ScrollAnimation>
         </div>
       </div>
