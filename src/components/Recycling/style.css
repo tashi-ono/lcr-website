@@ -522,9 +522,9 @@
 }
 
 @media only screen and (min-width: 1015px) {
-  @media only screen and (min-height: 630px) {
+  @media only screen and (min-height: 500px) {
     #recycle-icon {
-      width: 33vw;
+      width: 31vw;
     }
 
     #recycling-paragraph {

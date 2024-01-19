@@ -71,7 +71,7 @@ const Covid = () => {
           San Francisco County
         </a>
 
-        <a href="https://www.coronavirus.cchealth.org/health-orders">
+        <a href="https://www.cchealth.org/health-and-safety-information/orders-and-regulations/health-orders">
           Contra Costa County
         </a>
         <a href="https://www.smchealth.org/coronavirus">San Mateo County</a>
